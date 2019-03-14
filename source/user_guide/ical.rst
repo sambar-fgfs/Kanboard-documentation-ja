@@ -42,7 +42,7 @@ Kanboard のカレンダーをMozilla Thunderbirdに追加する
 
 -  Thunderbirdでカレンダーをサポートするために、**Lightning** アドオンをインストールする。
 -  **File > New Calendar** をクリックする
--  ダイアログボックス内で、**On the Network**を選択する
+-  ダイアログボックス内で、 **On the Network** を選択する
 
 .. figure:: /_static/thunderbird-new-calendar-step1.png
    :alt: Thunderbird (ステップ1)
@@ -58,7 +58,7 @@ Kanboard のカレンダーをMozilla Thunderbirdに追加する
 KanboardカレンダーをGoogleカレンダーに追加する
 ------------------------------------------------
 
--  「↓」の次にある、*その他のカレンダー**をクリックする
+-  「↓」の次にある、**その他のカレンダー**をクリックする
 -  メニューから**URLで追加**を選択する
 -  KanboardのiCal Feed URLをコピー・ペーストする
 
