@@ -14,9 +14,9 @@ Kanboard は自由でオープンソースな、かんばんプロジェクト�
     :maxdepth: 1
     :caption: Table of Contents
 
-..未完了はドット2つを先頭に付けてコメントアウト
     user_guide/index
 ..    admin_guide/index
 ..    developer_guide/index
 ..    plugins/index
 ..    api/index
+.. 未完了はドット2つを先頭に付けてコメントアウト
