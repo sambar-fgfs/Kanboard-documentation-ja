@@ -67,4 +67,4 @@ KanboardカレンダーをGoogleカレンダーに追加する
 
 また、同期を有効にしているならばKanboardカレンダーはAndroidデバイスからも利用可能です。
 
-注意:Googleサポートによると、外部カレンダーは頻繁には更新されません。`この文書を参照願います。 <https://support.google.com/calendar/answer/37100?hl=en&ref_topic=1672445>`__.
+注意:Googleサポートによると、外部カレンダーは頻繁には更新されません。`この文書を参照願います。 <https://support.google.com/calendar/answer/37100?hl=en&ref_topic=1672445>`__
