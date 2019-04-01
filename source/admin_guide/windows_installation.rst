@@ -171,7 +171,7 @@ PHP.ini
 IIS モジュール
 ~~~~~~~~~~~
 
-Kanboardアーカイブに含まれる ``web.config`` ファイルでURL rewritingを有効にします。この設定には`Rewrite module for IIS <http://www.iis.net/learn/extensions/url-rewrite-module/using-the-url-rewrite-module>`__ が必要になります。
+Kanboardアーカイブに含まれる ``web.config`` ファイルでURL rewritingを有効にします。この設定には `Rewrite module for IIS <http://www.iis.net/learn/extensions/url-rewrite-module/using-the-url-rewrite-module>`__ が必要になります。
 
 このRewriteモジュールが無い場合、IISは Internal Server Error (500) を返します。Kanboard でURL Rewriteを利用しない場合、 ``web.config``ファイルを削除できます。
 

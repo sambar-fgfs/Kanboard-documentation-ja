@@ -81,7 +81,7 @@ Kanboard はApacheで(URL rewritingが)動くように予め設定されてい�
 .. 警告::
 
     -  Kanboardは Apacheの ``mod_security`` と互換性がありません。
-    -  Apacheを使用する場合は、 ``mod_version``. モジュールが必ず必要です。
+    -  Apacheを使用する場合は、 ``mod_version`` モジュールが必ず必要です。
 
 PHP のバージョン
 ~~~~~~~~~~~~
