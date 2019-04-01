@@ -140,5 +140,5 @@ Kanboardのリポジトリをクローンして、以下のコマンドを実行
     - `Kanboard 公式イメージ <https://hub.docker.com/r/kanboard/kanboard/>`__
     - `Docker の文書 <https://docs.docker.com/>`__
     - Kanboard v1.1.0より前では、 "stable" タグは使用されていません
-    - Kanboard v1.2.5より後では、, "latest" タグはmasterブランチの代わりに最新安定リリースを示します
+    - Kanboard v1.2.5より後では、 "latest" タグはmasterブランチの代わりに最新安定リリースを示します
     - EMailを送るには、SMTPを使用するか、Mailgun/Sendgrid/Postmarkプラグインを使用しなければなりません
