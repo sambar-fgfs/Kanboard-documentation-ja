@@ -18,5 +18,5 @@ Kanboard は自由でオープンソースな、かんばんプロジェクト�
     admin_guide/index
 ..    developer_guide/index
 ..    plugins/index
-..    api/index
+    api/index
 .. 未完了はドット2つを先頭に付けてコメントアウト
