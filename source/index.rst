@@ -13,9 +13,10 @@ Kanboard は自由でオープンソースな、かんばんプロジェクト�
 .. toctree::
     :maxdepth: 1
     :caption: Table of Contents
+
     user_guide/index
     admin_guide/index
-    api/index
 ..    developer_guide/index
 ..    plugins/index
+    api/index
 .. 未完了はドット2つを先頭に付けてコメントアウト
