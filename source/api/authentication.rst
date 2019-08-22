@@ -11,19 +11,19 @@ URL: ``https://YOUR_SERVER/jsonrpc.php``
 デフォルトの方法 (HTTP Basic)
 ---------------------------
 
-アプリケーション証明書
+アプリケーションの資格情報
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Username: ``jsonrpc``
 -  Password: 設定ページにあるAPIトークン
 
-ユーザー証明書
+ユーザーの資格情報
 ~~~~~~~~~~~~~~~~
 
 -  Username: ユーザー名
 -  Password: ユーザーのパスワードor個人のアクセストークン
 
-APIは `RFC2617 <http://www.ietf.org/rfc/rfc2617.txt> で説明されるHTTP Basic 認証スキーム`__ を使用します。
+APIは `RFC2617 <http://www.ietf.org/rfc/rfc2617.txt> `__ で説明されるHTTP Basic 認証スキームを使用します。
 
 カスタム HTTP ヘッダー
 ------------------
@@ -37,7 +37,7 @@ APIは `RFC2617 <http://www.ietf.org/rfc/rfc2617.txt> で説明されるHTTP Bas
 
 1. ``config.php`` 内でカスタムヘッダーを定義します:
    ``define('API_AUTHENTICATION_HEADER', 'X-API-Auth');``
-2. 証明書を Base64 でエンコードしてください。 PHPでの例は、
+2. 資格情報を Base64 でエンコードしてください。 PHPでの例は、
    ``base64_encode('jsonrpc:19ffd9709d03ce50675c3a43d1c49c1ac207f4bc45f06c5b2701fbdf8929');``
 3. curlでテストします:
 
@@ -51,7 +51,7 @@ APIは `RFC2617 <http://www.ietf.org/rfc/rfc2617.txt> で説明されるHTTP Bas
 認証エラー
 --------------------
 
-証明書が正しくない場合、 ``401 Not Authorized`` と、対応するJSONレスポンスを返します。
+資格情報が正しくない場合、 ``401 Not Authorized`` と、対応するJSONレスポンスを返します。
 
 認可エラー
 -------------------

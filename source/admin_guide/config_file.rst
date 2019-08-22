@@ -8,9 +8,11 @@
 
 .. code:: php
 
+    define('DEBUG', true);
     define('LOG_DRIVER', 'file'); // ドライバは、 syslog, stdout, stderr, system ,file です。
 
-    // デフォルトでは、ログは data/debug.logに保存されますが、変更することもできます。
+    // デフォルトでは、ログは data/debug.logに保存されますが、変更することもできます:
+    define('LOG_FILE', '/path/to/debug.log');
 
 -  デバッグモードを有効化する場合、log_driverを定義しなければなりません。
 -  デバッグモードのログはすべてSQLクエリで、ページの生成に時間が掛かります。
@@ -82,7 +84,7 @@ Email の設定
     define('MAIL_SMTP_PORT', 25);
     define('MAIL_SMTP_USERNAME', '');
     define('MAIL_SMTP_PASSWORD', '');
-    define('MAIL_SMTP_ENCRYPTION', null); // Valid values are "null", "ssl" or "tls"
+    define('MAIL_SMTP_ENCRYPTION', 'ssl'); // "null", "ssl", "tls" が利用できます
 
     // "sendmail" での送信を選んだときに sendmail コマンドが使用する設定
     define('MAIL_SENDMAIL_COMMAND', '/usr/sbin/sendmail -bs');
@@ -92,7 +94,7 @@ Email の設定
 
 .. code:: php
 
-    // 自動的にデータベースのマイグレーションを実行する
+    // 自動的にデータベースのマイグレーションを実施する
     // これをfalseにした場合、Kanboardのアップグレード作業中にSQLのマイグレーションをCLIから手動で行わなければなりません。
     // 同時に複数のプロセスからマイグレーションを実行してはいけません (例: web ページ + バックグラウンドワーカー)
     define('DB_RUN_MIGRATIONS', true);
@@ -106,7 +108,7 @@ Email の設定
     // Mysql/Postgres でのパスワード
     define('DB_PASSWORD', '');
 
-    // Mysql/Postgres のホスト名
+    // Mysql/Postgres でのホスト名
     define('DB_HOSTNAME', 'localhost');
 
     // Mysql/Postgres データベース名
@@ -151,7 +153,7 @@ LDAP の設定
     // LDAPの認証タイプ: "anonymous", "user" or "proxy"
     define('LDAP_BIND_TYPE', 'anonymous');
 
-    // proxy modeで使用するLDAP ユーザー名
+    // proxyモードで使用する LDAP password
     // userモードで使用する LDAPユーザー名のパターン
     define('LDAP_USERNAME', null);
 
@@ -159,23 +161,23 @@ LDAP の設定
     define('LDAP_PASSWORD', null);
 
     // LDAP のユーザー識別名
-    // ActiveDirectory の例 : CN=Users,DC=kanboard,DC=local
-    // OpenLDAP の例 : ou=People,dc=example,dc=com
+    // ActiveDirectoryでの例: CN=Users,DC=kanboard,DC=local
+    // OpenLDAPでの例: ou=People,dc=example,dc=com
     define('LDAP_USER_BASE_DN', '');
 
     // LDAP でユーザーアカウントの検索に使用するパターン
-    // ActiveDirectory の例 : '(&(objectClass=user)(sAMAccountName=%s))'
-    // OpenLDAP の例 : 'uid=%s'
+    // ActiveDirectoryでの例: '(&(objectClass=user)(sAMAccountName=%s))'
+    // OpenLDAPでの例: 'uid=%s'
     define('LDAP_USER_FILTER', '');
 
-    // LDAP 属性のユーザー名
-    // ActiveDirectory の例 : 'samaccountname'
-    // OpenLDAP の例 : 'uid'
+    // LDAP 属性でのユーザー名
+    // ActiveDirectoryでの例: 'samaccountname'
+    // OpenLDAPでの例: 'uid'
     define('LDAP_USER_ATTRIBUTE_USERNAME', 'uid');
 
     // LDAP 属性のユーザーのフルネーム
-    // ActiveDirectory の例 : 'displayname'
-    // OpenLDAP の例 : 'cn'
+    //ActiveDirectory の例: 'displayname'
+    // OpenLDAPでの例: 'cn'
     define('LDAP_USER_ATTRIBUTE_FULLNAME', 'cn');
 
     // LDAP 属性のユーザーのemailアドレス
@@ -210,7 +212,7 @@ LDAP の設定
     define('LDAP_GROUP_BASE_DN', '');
 
     // LDAP グループフィルター
-    // ActiveDirectoryの例 : (&(objectClass=group)(sAMAccountName=%s*))
+    // ActiveDirectoryの例: (&(objectClass=group)(sAMAccountName=%s*))
     define('LDAP_GROUP_FILTER', '');
 
     // LDAP ユーザーグループフィルター
@@ -260,7 +262,7 @@ RememberMe 認証の設定
 ログ生成
 -------
 
-デフォルトでは、Kanboardな何もログを生成しません。ログ生成を有効にしたいならば、ログドライバをセットしなければなりません。
+デフォルトでは、Kanboardは何もログを生成しません。ログ生成を有効にしたいならば、ログドライバをセットしなければなりません。
 
 .. code:: php
 
@@ -296,7 +298,7 @@ RememberMe 認証の設定
 HTTP クライアント
 -----------
 
-外部HTTPリクエストはproxyを通しての送信が必要な場合:
+HTTPプロキシの設定:
 
 .. code:: php
 
@@ -304,6 +306,7 @@ HTTP クライアント
     define('HTTP_PROXY_PORT', '3128');
     define('HTTP_PROXY_USERNAME', '');
     define('HTTP_PROXY_PASSWORD', '');
+    define('HTTP_PROXY_EXCLUDE', 'localhost'); // Only for cURL
 
 自己署名証明書を許容するには:
 
