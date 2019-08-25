@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Kanboard'
-copyright = '2014-2018, The Kanboard Authors'
+copyright = '2014-2019, The Kanboard Authors'
 author = 'The Kanboard Authors'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -64,7 +64,7 @@ release = ''
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'ja_JP'
+language = None
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.

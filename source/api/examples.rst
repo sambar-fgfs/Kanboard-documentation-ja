@@ -44,7 +44,7 @@ cURLを使用する例
 Pythonを使用する例
 -------------------
 
-`Kanboardの公式Pythonクライアント <https://github.com/kanboard/kanboard-api-python>`__ を利用できます:
+これが `Kanboardの公式Pythonクライアント <https://github.com/kanboard/kanboard-api-client>`__ です:
 
 .. code:: bash
 
@@ -54,16 +54,14 @@ Pythonを使用する例
 
 .. code:: python
 
-    from kanboard import Kanboard
+    import kanboard
 
-    kb = Kanboard("http://localhost/jsonrpc.php", "jsonrpc", "*APIトークン*")
+    kb = kanboard.Client('http://localhost/jsonrpc.php', 'jsonrpc', 'your_api_token')
 
-    project_id = kb.create_project(name="*新規プロジェクト名*")
-    kb.add_project_user(project_id=project_id, user_id=123, role='project-manager');
+    project_id = kb.create_project(name='My project')
+    kb.add_project_user(project_id=project_id, user_id=123, role='project-manager')
 
-    task_id = kb.create_task(project_id=project_id, title="*新規タスク名*")
-
-もっと多くの例が `公式website <https://github.com/kanboard/kanboard-api-python>`__ にあります。
+    task_id = kb.create_task(project_id=project_id, title='My task title')
 
 Rubyを使用する例
 -----------------

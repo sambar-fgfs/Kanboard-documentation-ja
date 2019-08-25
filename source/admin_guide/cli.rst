@@ -9,57 +9,62 @@ Kanboard にはUnixターミナルから利用可能な、シンプルなコマ�
 -----
 
 -  ターミナルを開き、Kanboardのインストールされたディレクトリに移動する (例: ``cd /var/www/kanboard``)
+   ``cd /var/www/kanboard``)
 -  ``./cli`` or ``php cli`` のコマンドを実行する
 
 .. code:: bash
 
-    Kanboard version master
+    Kanboard v1.2.11
+
 
     使用方法:
+      使用方法:
       コマンド [オプション] [引数]
 
     オプション:
-      -h, --help            このヘルプメッセージを表示
-      -q, --quiet           いかなるメッセージも出力しない
-      -V, --version         このアプリケーションのバージョンを表示
-          --ansi            出力はANSI形式を強制する
-          --no-ansi         出力はANSI形式を強制しない
-      -n, --no-interaction  対話的質問を行わない
+      -h, --help            このヘルプメッセージを表示する
+      -q, --quiet           何もメッセージを表示しない
+      -V, --version         アプリケーションのバージョンを表示する
+          --ansi            ANSI形式での出力を強制する
+          --no-ansi            ANSI形式での出力を無効化
+      -n, --no-interaction  対話的な質問をしない
       -v|vv|vvv, --verbose  vの数が増える毎に詳細に出力する: -v は通常の出力で、-vv はもっと詳細に出力し、そして-vvvはデバッグ用です。
 
     利用可能なコマンド:
-      cronjob                            毎日の cronjob を実行
-      help                               コマンドのヘルプを表示
-      job                                個々のジョブを実行 (ペイロードは標準入力から読み込み)
-      list                               コマンドのリストを表示
-      version                            Kanboard のバージョンを表示
-      worker                             キューワーカーを実行
-     データベース
-      db:migrate                         SQL のマイグレーションを実行
+      cronjob                            毎日のcronjobを実行する
+      css                                最小限のCSSファイル
+      help                               コマンドのヘルプを画面に表示する
+      job                                個々のジョブを実行する (stdin からペイロードを読み込む)
+      js                                 最小限のJavascriptファイル
+      list                               コマンドのリスト
+      version                            Kanboardのバージョンを表示
+      worker                             キューワーカーを実行する
+     db
+      db:migrate                         SQL マイグレーションを実行
       db:version                         データベースのスキーマのバージョンを表示
      エクスポート
-      export:daily-project-column-stats  毎日のプロジェクトのコラムの統計を CSV でエクスポート (コラム毎・毎日のタスク数)
-      export:subtasks                    サブタスクを CSV でエクスポート
-      export:tasks                       タスクを CSV でエクスポート
-      export:transitions                 タスクの遷移を CSV でエクスポート
+      export:daily-project-column-stats  毎日のプロジェクトのカラムの統計をCSVでエクスポート (1日でのカラム毎のタスク数)
+      export:subtasks                    サブタスクをCSVでエクスポート
+      export:tasks                       タスクをCSVでエクスポート
+      export:transitions                 タスクの推移をCSVでエクスポート
      ロケール
-      locale:compare                     アプリケーションの翻訳を fr_FR と比較
-      locale:sync                        全ての翻訳を fr_FR を元に同期
+      locale:compare                     アプリケーションの翻訳を fr_FR のロケールと比較する
+      locale:sync                        fr_FR ロケールを元に全ての翻訳を同期させる
      通知
-      notification:overdue-tasks         期限切れタスクの通知を送る
+      notification:overdue-tasks         期限切れのタスクの通知を送る
      プラグイン
-      plugin:install                     リモートの Zip アーカイブからプラグインをインストール
-      plugin:uninstall                   プラグインを削除
-      plugin:upgrade                     インストール済みのプラグインをすべてアップデート
+      plugin:install                     リモートのzipアーカイブからプラグインをインストールする
+      plugin:uninstall                   プラグインを削除する
+      plugin:upgrade                     インストール済みのプラグインを全て更新する
      プロジェクト
-      projects:archive                   1年間触られていないプロジェクトを無効化
-      projects:archive-activities        1年以上前のプロジェクトのアクティビティを削除
-      projects:daily-stats               すべてのプロジェクトの毎日の統計を計算
-     trigger
-      trigger:tasks                      Trigger scheduler event for all tasks
-     user
-      user:reset-2fa                     ユーザーの二要素認証を解除
-      user:reset-password                ユーザーのパスワードを変更
+      projects:archive                   1年間触られていないプロジェクトを無効化する
+      projects:archive-activities        1年以上前のプロジェクトのアクティビティを削除する
+      projects:daily-stats               全てのプロジェクトの毎日の統計を計算する
+     トリガー
+      trigger:tasks                      全てのタスクのイベントのトリガーのスケジューラー
+     ユーザー
+      user:reset-2fa                     ユーザーの二要素認証を削除する
+      user:reset-password                ユーザーのパスワードを変更する
 
 利用可能なコマンド
 ------------------
@@ -79,7 +84,7 @@ Kanboard にはUnixターミナルから利用可能な、シンプルなコマ�
 
     ./cli export:tasks 1 2014-10-01 2014-11-30 > /tmp/my_custom_export.csv
 
-CSVデータは `stdout`に送られます。
+CSVデータは ``stdout`` に送られます。
 
 サブタスクをCSVでエクスポート
 ~~~~~~~~~~~~~~~~~~~
@@ -235,6 +240,8 @@ CSVデータは `stdout`に送られます。
 .. code:: bash
 
     ./cli worker
+
+.. 警告:: バックグラウンドワーカーは本当に誰もメンテナンスしていません。
 
 個々のジョブを実行する (たいていデバッグ目的)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

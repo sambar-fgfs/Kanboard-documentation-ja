@@ -7,7 +7,7 @@ APIのエンドポイントに関する文書です。
     :maxdepth: 1
 
     introduction
-    authentication
+    authentication\
     examples
     application_procedures
     me_procedures
