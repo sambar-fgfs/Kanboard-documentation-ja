@@ -65,7 +65,7 @@ Kanboardはリソースが限られたオープンソースプロジェクトで
 ---------------------------------
 
 - 文書のソースコードは `<https://github.com/kanboard/documentation>`_ にあります。
-- 我々は`Sphinx <http://www.sphinx-doc.org/>`_ と、`reStructuredText <https://en.wikipedia.org/wiki/ReStructuredText>`_  マークアップ言語でこの文書を複数の形式で生成しています。
+- 我々は `Sphinx <http://www.sphinx-doc.org/>`_ と、`reStructuredText <https://en.wikipedia.org/wiki/ReStructuredText>`_  マークアップ言語でこの文書を複数の形式で生成しています。
 - この文書を更新するには、上述したようにプロジェクトにプルリクエストを送ってください。
 
 この文書を翻訳するには?

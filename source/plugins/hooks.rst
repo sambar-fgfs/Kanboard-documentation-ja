@@ -36,9 +36,7 @@ Console <http://symfony.com/doc/current/components/console/introduction.html>`__
 新しいタスクのフィルターを追加する
 --------------------
 
-Since the task lexer is a factory that returns a new instance each time,
-you have to extend the ``taskLexer`` container with the method
-``extend()`` of Pimple.
+タスクの字句解析器が新しいインスタンスを都度返すので、  ``extend()`` メソッドか、pimpleによって ``taskLexer`` コンテナを拡張しなければなりません。
 
 ここに例を示しますe:
 

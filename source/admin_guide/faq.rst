@@ -4,7 +4,7 @@ FAQ
 Kanboardをホスティングするのにお勧めのサービスはどこですか？
 ------------------------------------------------------
 
-Kanboardは、 `Digital Ocean <https://www.digitalocean.com/?refcode=4b541f47aae4>`__ や`Linode <https://www.linode.com/?r=4e381ac8a61116f40c60dc7438acc719610d8b11>`__ ,あるいは `Gandi <https://www.gandi.net/>`__　のような、優れたVPSホスティングサービスでうまく動かせます。
+Kanboardは、 `Digital Ocean <https://www.digitalocean.com/?refcode=4b541f47aae4>`__ や `Linode <https://www.linode.com/?r=4e381ac8a61116f40c60dc7438acc719610d8b11>`__ ,あるいは `Gandi <https://www.gandi.net/>`__　のような、優れたVPSホスティングサービスでうまく動かせます。
 
 KanboardはデフォルトでSQLiteを使用しているため、最良のパフォーマンスを得るには、disk I/Oが早いサービスを選んでください。共有NFSマウントポイントを使用しているホスティングサービスは避けてください。
 
