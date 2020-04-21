@@ -1,4 +1,4 @@
-ユーザーAPIのプロシージャ
+ユーザー操作の API プロシージャ
 ===================
 
 createUser
@@ -51,8 +51,7 @@ createLdapUser
 -  成功時の返り値: **user_id**
 -  失敗時の返り値: **false**
 
-LDAPサーバー上のユーザーがいる場合のみKanboardのユーザーが作成されます。
-この方法はLDAP認証が "proxy" モードか "anonymous" モードに設定されている場合のみ動作します。
+LDAPサーバー上のユーザーがいる場合のみKanboardのユーザーが作成されます。この方法はLDAP認証が "proxy" モードか "anonymous" モードに設定されている場合のみ動作します。
 
 リクエスト例:
 
@@ -140,7 +139,7 @@ getUserByName
     {
         "jsonrpc": "2.0",
         "method": "getUserByName",
-        "id": 1769674782,
+        d"id": 1769674782,
         "params": {
             "username": "biloute"
         }
@@ -152,7 +151,7 @@ getUserByName
 
     {
         "jsonrpc": "2.0",
-        "id": 1769674782,
+        d"id": 1769674782,
         "result": {
             "id": "1",
             "username": "biloute",
@@ -206,8 +205,7 @@ getAllUsers
                 "notifications_enabled": "0",
                 "google_id": null,
                 "github_id": null
-            },
-            ...
+            }
         ]
     }
 

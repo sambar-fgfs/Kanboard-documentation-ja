@@ -1,5 +1,5 @@
 タスクのAPIプロシージャ
-===========================
+===================
 
 createTask
 ----------
@@ -318,8 +318,7 @@ getAllTasks
                     "background": "rgb(189, 244, 203)",
                     "border": "rgb(74, 227, 113)"
                 }
-            },
-            ...
+            }
         ]
     }
 
@@ -365,8 +364,7 @@ getOverdueTasks
                 "project_name": "Test",
                 "assignee_username":"admin",
                 "assignee_name": null
-            },
-            ...
+            }
         ]
     }
 
@@ -415,8 +413,7 @@ getOverdueTasksByProject
                 "project_name": "Test",
                 "assignee_username":"admin",
                 "assignee_name": null
-            },
-            ...
+            }
         ]
     }
 
@@ -752,7 +749,6 @@ searchTasks
                 "swimlane_id": "0",
                 "owner_id": "0",
                 "creator_id": "0"
-                // ...
              }
         ]
     }

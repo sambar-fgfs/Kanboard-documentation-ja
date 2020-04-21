@@ -121,8 +121,7 @@ getAllComments
                 "comment": "Comment #1",
                 "username": "admin",
                 "name": null
-            },
-            ...
+            }
         ]
     }
 

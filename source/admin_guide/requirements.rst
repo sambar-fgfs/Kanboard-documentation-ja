@@ -12,21 +12,19 @@
 +-------------------------------------+
 | Operating System                    |
 +=====================================+
-| Alpine Linux >= 3.8                 |
+| Alpine Linux                        |
 +-------------------------------------+
-| Linux Ubuntu >= 16.04               |
+| Linux Ubuntu                        |
 +-------------------------------------+
-| Linux Centos 7.x                    |
+| Linux Centos                        |
 +-------------------------------------+
-| Linux Redhat 7.x                    |
+| Linux Redhat                        |
 +-------------------------------------+
-| Linux Debian 9                      |
+| Linux Debian                        |
 +-------------------------------------+
-| FreeBSD 10.x                        |
+| FreeBSD                             |
 +-------------------------------------+
-| Microsoft Windows 2016              |
-+-------------------------------------+
-| Microsoft Windows 2012 R2           |
+| Microsoft Windows                   |
 +-------------------------------------+
 
 .. 注意:: 推奨するOSは GNU/Linux (Debian/Ubuntu/RHEL/Alpine Linux) です。
@@ -89,12 +87,12 @@ PHP のバージョン
 +--------------+
 | PHP Version  |
 +==============+
-| PHP >= 5.6.0 |
+| PHP >= 7.2   |
 +--------------+
 
 .. 注意::
 
-    - Kanboard 1.2 以降では、PHP 5.6 以降が必要になります。
+    - Kanboard v 1.2.13以降では、PHP 7.2 以降が必要になります。
     - 最新のバージョンのPHPを推奨します。
 
 必要なPHP 拡張
@@ -149,8 +147,7 @@ PHP のバージョン
 ~~~~~~~~~~~~~~~
 
 -  最新版のPHPをインストールした現代的なLinux/Unix OS
--  Best performances are obtained with the latest version of PHP with
-   OpCode caching activated.
+-  最良のパフォーマンスを得るために、OpCode キャッシュが有効化された最新のPHP
 
 クライアント側
 -----------

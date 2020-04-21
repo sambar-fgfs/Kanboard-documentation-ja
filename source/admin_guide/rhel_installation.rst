@@ -1,6 +1,11 @@
 RHEL/Centos/Oracle Linux Enterprise へのインストール
 =====================================================
 
+.. 警告::
+
+    このページは長い間更新されておらず、古い可能性があります。
+
+
 Centos 7
 --------
 
@@ -18,7 +23,7 @@ Apache を再起動する:
 
     systemctl restart httpd.service
 
-Install Kanboard:
+Kanboardのインストール:
 
 .. code:: bash
 

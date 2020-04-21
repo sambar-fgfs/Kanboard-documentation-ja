@@ -1,7 +1,7 @@
 Docker上でKanboardを実行する
 ============================
 
-.. 警告:: `ChangeLog <https://github.com/kanboard/kanboard/blob/master/ChangeLog>`_ を見ること無しで盲目的なアップデートをしないでください。
+.. 警告:: `ChangeLog <https://github.com/kanboard/kanboard/blob/master/ChangeLog>`_ を読まずにアップデートしないでください。
              重大な変更点の確認を怠らないでください。
 
 
@@ -58,7 +58,6 @@ Docker タグ
 
 .. code:: bash
 
-    docker pull kanboard/kanboard:v1.2.8
     docker run -d --name kanboard -p 80:80 -t kanboard/kanboard:v1.2.8
 
 Docker Compose
@@ -81,11 +80,8 @@ Docker Compose
           - kanboard_ssl:/etc/nginx/ssl
     volumes:
       kanboard_data:
-        driver: local
       kanboard_plugins:
-        driver: local
       kanboard_ssl:
-        driver: local
 
 これは MariaDB での例です:
 
@@ -103,22 +99,19 @@ Docker Compose
         - kanboard_plugins:/var/www/app/plugins
         - kanboard_ssl:/etc/nginx/ssl
       environment:
-        DATABASE_URL: mysql://kb:kb-secret@db/kanboard
+        DATABASE_URL: mysql://kanboard:kanboard-secret@db/kanboard
     db:
       image: mariadb:latest
       command: --default-authentication-plugin=mysql_native_password
       environment:
         MYSQL_ROOT_PASSWORD: secret
         MYSQL_DATABASE: kanboard
-        MYSQL_USER: kb
-        MYSQL_PASSWORD: kb-secret
+        MYSQL_USER: kanboard
+        MYSQL_PASSWORD: kanboard-secret
   volumes:
     kanboard_data:
-      driver: local
     kanboard_plugins:
-      driver: local
     kanboard_ssl:
-      driver: local
 
 Docker Compose を利用して、コンテナを開始してください:
 
@@ -141,4 +134,4 @@ Kanboardのリポジトリをクローンして、以下のコマンドを実行
     - `Dockerの文書 <https://docs.docker.com/>`__
     - Kanboard v1.1.0 以降では "stable" タグは使用されていません。
     - Kanboard v1.2.5 以降では、"latest" タグはマスターブランチの代わりに最新安定版リリースを指します。
-    - EMailを送るには、SMTPを使用するか、Mailgun/Sendgrid/Postmarkプラグインを使用しなければなりません
+    - EMailを送るには、SMTPを使用するか、Mailgun/Sendgrid/Postmarkプラグインを使用しなければなりません。

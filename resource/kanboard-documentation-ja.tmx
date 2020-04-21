@@ -281,6 +281,16 @@
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg># restart apache</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130651Z" changeid="aoki-kiyohito">
+            <seg>#Apache を再起動する</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>Users that belong to this role won’t be able to change the task status
 in the column “Done”.</seg>
@@ -424,6 +434,16 @@ in the column “Done”.</seg>
 
          <tuv xml:lang="JA" changedate="20190812T135734Z" changeid="aoki-kiyohito">
             <seg>// 自動的にデータベースのマイグレーションを実施する</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_GROUP_FILTER', '(&amp;(objectClass=groupOfNames)(cn=%s*))');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125446Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_GROUP_FILTER', '(&amp;(objectClass=groupOfNames)(cn=%s*))');</seg>
          </tuv>
       </tu>
 
@@ -794,6 +814,16 @@ rewriting.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>MYSQL_USER: kanboard</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125141Z" changeid="aoki-kiyohito">
+            <seg>MYSQL_USER: kanboard</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>The configuration parameter ``LDAP_USER_FILTER`` is used to find users
 in LDAP directory.</seg>
@@ -879,6 +909,16 @@ in LDAP directory.</seg>
          <tuv xml:lang="JA" changedate="20190821T002220Z" changeid="aoki-kiyohito">
             <seg>openTask
 --------</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>wget https://github.com/kanboard/kanboard/archive/v&lt;version&gt;.zip</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130438Z" changeid="aoki-kiyohito">
+            <seg>wget https://github.com/kanboard/kanboard/archive/v&lt;version&gt;.zip</seg>
          </tuv>
       </tu>
 
@@ -1302,6 +1342,16 @@ optional.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_GROUP_MANAGER_DN', 'CN=Kanboard Managers,CN=Users,DC=kanboard,DC=local');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125406Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_GROUP_MANAGER_DN', 'CN=Kanboard Managers,CN=Users,DC=kanboard,DC=local');</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>├── Model</seg>
          </tuv>
@@ -1559,6 +1609,16 @@ plugins.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>httpd.exe -k install</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124047Z" changeid="aoki-kiyohito">
+            <seg>httpd.exe -k install</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>&quot;cGxhaW4gdGV4dCBmaWxl&quot;</seg>
          </tuv>
@@ -1641,6 +1701,16 @@ plugins.</seg>
 
          <tuv xml:lang="JA" changedate="20190812T155651Z" changeid="aoki-kiyohito">
             <seg>この **言葉** はとても __重要__ です。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>sudo zypper install apache2-mod_php7 php7-openssl php7-gd php7-mbstring php7-mcrypt php7-mysql php7-xmlrpc php7-ctype php7-json</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130547Z" changeid="aoki-kiyohito">
+            <seg>sudo zypper install apache2-mod_php7 php7-openssl php7-gd php7-mbstring php7-mcrypt php7-mysql php7-xmlrpc php7-ctype php7-json</seg>
          </tuv>
       </tu>
 
@@ -2043,6 +2113,18 @@ left.</seg>
 
          <tuv xml:lang="JA" changedate="20190317T054256Z" changeid="aoki-kiyohito">
             <seg>-  複数のプロセスで並行してマイグレーションを実行しないでください。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Download the last stable version of PHP from the `official PHP website &lt;http://windows.php.net/download/&gt;`__, choose the **Thread Safe** version and use the exact same build type as Apache: x86 or x64
+2.</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124109Z" changeid="aoki-kiyohito">
+            <seg>`official PHP website &lt;http://windows.php.net/download/&gt;`__ から、**Thread Safe**なバージョンで、Apache同様に x86 or x64 を正確に選択して、最新安定版のPHPをダウンロードする。
+2.</seg>
          </tuv>
       </tu>
 
@@ -3008,6 +3090,16 @@ directly in the Apache configuration.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>&quot;key2&quot;: &quot;value2&quot;</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T130245Z" changeid="aoki-kiyohito">
+            <seg>&quot;key2&quot;: &quot;value2&quot;</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>metadata.rst</seg>
          </tuv>
@@ -3078,6 +3170,16 @@ directly in the Apache configuration.</seg>
          <tuv xml:lang="JA" changedate="20190822T141013Z" changeid="aoki-kiyohito">
             <seg>``app/Model/Language.php`` ファイルを更新する
 5.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_PASSWORD', 'secret');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125353Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_PASSWORD', 'secret');</seg>
          </tuv>
       </tu>
 
@@ -3278,6 +3380,18 @@ you can enable this feature in your config file:</seg>
 
          <tuv xml:lang="JA" changedate="20190813T085958Z" changeid="aoki-kiyohito">
             <seg>&quot;id&quot;: 2108929212,</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Download Apache binary from `Apache Lounge &lt;http://www.apachelounge.com/download/&gt;`__
+2.</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T123959Z" changeid="aoki-kiyohito">
+            <seg>`Apache Lounge &lt;http://www.apachelounge.com/download/&gt;`__ からApacheのバイナリをダウンロードする
+2.</seg>
          </tuv>
       </tu>
 
@@ -3908,6 +4022,16 @@ steps to fix it manually:</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>sudo rm kanboard-&lt;version&gt;.zip</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130704Z" changeid="aoki-kiyohito">
+            <seg>sudo rm kanboard-&lt;version&gt;.zip</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>headers.setContentType(MediaType.APPLICATION_JSON);</seg>
          </tuv>
@@ -4028,6 +4152,16 @@ steps to fix it manually:</seg>
          <tuv xml:lang="JA" changedate="20190318T150041Z" changeid="aoki-kiyohito">
             <seg>-  プロキシがKanboardを実行しているwebサーバーと同じであるならば、
        `CGI protocol &lt;http://www.ietf.org/rfc/rfc3875&gt;`__ によると、ヘッダーでの名前は ``REMOTE_USER`` になるでしょう。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>MYSQL_PASSWORD: kanboard-secret</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125145Z" changeid="aoki-kiyohito">
+            <seg>MYSQL_PASSWORD: kanboard-secret</seg>
          </tuv>
       </tu>
 
@@ -4572,6 +4706,16 @@ mentioned.</seg>
 
          <tuv xml:lang="JA" changedate="20190815T083337Z" changeid="aoki-kiyohito">
             <seg>-  **description** (string, 任意)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>member: uid=manager,ou=Users,dc=kanboard,dc=local</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125432Z" changeid="aoki-kiyohito">
+            <seg>member: uid=manager,ou=Users,dc=kanboard,dc=local</seg>
          </tuv>
       </tu>
 
@@ -5371,6 +5515,16 @@ stored in the database.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>mail: manager@kanboard.local</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125424Z" changeid="aoki-kiyohito">
+            <seg>mail: manager@kanboard.local</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>&quot;project_id&quot;: 2,</seg>
          </tuv>
@@ -5691,6 +5845,16 @@ stored in the database.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_GROUP_BASE_DN', 'ou=Groups,dc=kanboard,dc=local');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125445Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_GROUP_BASE_DN', 'ou=Groups,dc=kanboard,dc=local');</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>&quot;method&quot;: &quot;getAllTasks&quot;,</seg>
          </tuv>
@@ -5974,6 +6138,16 @@ any Unix terminal.</seg>
 
          <tuv xml:lang="JA" changedate="20190303T123141Z" changeid="aoki-kiyohito">
             <seg>-  Email</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_USER_BASE_DN', 'OU=Users,DC=kanboard,DC=local');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125442Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_USER_BASE_DN', 'OU=Users,DC=kanboard,DC=local');</seg>
          </tuv>
       </tu>
 
@@ -6335,6 +6509,16 @@ any Unix terminal.</seg>
          <tuv xml:lang="JA" changedate="20190316T114708Z" changeid="aoki-kiyohito">
             <seg>パッケージのインストール
 --------------------</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>sudo unzip kanboard-&lt;version&gt;.zip</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130604Z" changeid="aoki-kiyohito">
+            <seg>sudo unzip kanboard-&lt;version&gt;.zip</seg>
          </tuv>
       </tu>
 
@@ -7190,6 +7374,16 @@ can redefine the default layout or change email notifications.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>php7.2-opcache php7.2-json php7.2-mysql php7.2-pgsql php7.2-ldap php7.2-gd php7.2-xml</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130725Z" changeid="aoki-kiyohito">
+            <seg>php7.2-opcache php7.2-json php7.2-mysql php7.2-pgsql php7.2-ldap php7.2-gd php7.2-xml</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>&quot;id&quot;: 235943344,</seg>
          </tuv>
@@ -7636,6 +7830,16 @@ manually to restrict Kanboard to only some people.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_USER_ATTRIBUTE_LANGUAGE', 'preferredLanguage');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125403Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_USER_ATTRIBUTE_LANGUAGE', 'preferredLanguage');</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>Request example to fetch all the metada of a task:</seg>
          </tuv>
@@ -7759,6 +7963,16 @@ directory data:</seg>
 
          <tuv xml:lang="JA" changedate="20190825T121655Z" changeid="aoki-kiyohito">
             <seg>export:subtasks                    サブタスクをCSVでエクスポート</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>// This filter is used to find the groups of our user</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125559Z" changeid="aoki-kiyohito">
+            <seg>// このフィルターはユーザーがグループを探すのに使用されます</seg>
          </tuv>
       </tu>
 
@@ -8181,12 +8395,18 @@ Kanboard folder.</seg>
       </tu>
 
       <tu>
+         <prop type="x-merge-mt">true</prop>
+
          <tuv xml:lang="EN-US">
             <seg>- To send emails, you must use the SMTP method or a plugin like Mailgun/Sendgrid/Postmark</seg>
          </tuv>
 
          <tuv xml:lang="JA" changedate="20190825T123511Z" changeid="aoki-kiyohito">
             <seg>- EMailを送るには、SMTPを使用するか、Mailgun/Sendgrid/Postmarkプラグインを使用しなければなりません</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125236Z" changeid="aoki-kiyohito">
+            <seg>- EMailを送るには、SMTPを使用するか、Mailgun/Sendgrid/Postmarkプラグインを使用しなければなりません。</seg>
          </tuv>
       </tu>
 
@@ -8276,6 +8496,16 @@ Kanboard folder.</seg>
 
          <tuv xml:lang="JA" changedate="20190815T112103Z" changeid="aoki-kiyohito">
             <seg>import org.springframework.http.HttpEntity;</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>sudo a2enmod php7</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130557Z" changeid="aoki-kiyohito">
+            <seg>sudo a2enmod php7</seg>
          </tuv>
       </tu>
 
@@ -8709,6 +8939,16 @@ add new commands from your plugin:</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>dn: cn=Kanboard Managers,ou=Groups,dc=kanboard,dc=local</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125429Z" changeid="aoki-kiyohito">
+            <seg>dn: cn=Kanboard Managers,ou=Groups,dc=kanboard,dc=local</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>Emails will be sent to all users with notifications enabled.</seg>
          </tuv>
@@ -8778,6 +9018,16 @@ add new commands from your plugin:</seg>
 
          <tuv xml:lang="JA" changedate="20190825T141638Z" changeid="aoki-kiyohito">
             <seg>Kanboard は別のシステムに保存されているタスクの管理に使用可能です。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>extension=php_openssl.dll</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124239Z" changeid="aoki-kiyohito">
+            <seg>extension=php_openssl.dll</seg>
          </tuv>
       </tu>
 
@@ -9282,6 +9532,16 @@ connect to Kanboard.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>DirectoryIndex index.php index.html</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124533Z" changeid="aoki-kiyohito">
+            <seg>DirectoryIndex index.php index.html</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>You can send notifications to almost any system by adding a new type.</seg>
          </tuv>
@@ -9764,6 +10024,16 @@ the time.</seg>
 
          <tuv xml:lang="JA" changedate="20190821T092533Z" changeid="aoki-kiyohito">
             <seg>api/index</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Go to http://localhost/ you should see a blank page with the text “It works!”.</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124057Z" changeid="aoki-kiyohito">
+            <seg>http://localhost/ を開いたら、&quot;It Works!&quot;とだけ書かれたページが表示されるはずです。</seg>
          </tuv>
       </tu>
 
@@ -10842,6 +11112,16 @@ values:</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>-  Install IIS on your server (Add a new role and don’t forget to enable CGI/FastCGI)</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124620Z" changeid="aoki-kiyohito">
+            <seg>-  サーバーにIIS をインストールする (新しいロールを追加するとともに、 CGI/FastCGIを有効にするのを忘れないでください)</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>// By default Kanboard lowercase the ldap username to avoid duplicate users (the database is case sensitive)
     // Set to true if you want to preserve the case
@@ -10852,6 +11132,16 @@ values:</seg>
             <seg>// Kanboard はデフォルトではユーザーの重複回避のため、ldapのユーザー名は小文字になります (データベースは大文字と小文字を区別します )
     // 大文字を使いたい場合はtrueにしてください。
     define('LDAP_USERNAME_CASE_SENSITIVE', false);</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>php7.2-xml</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130757Z" changeid="aoki-kiyohito">
+            <seg>php7.2-xml</seg>
          </tuv>
       </tu>
 
@@ -11752,6 +12042,16 @@ under ``ou=People,dc=example,dc=com``.</seg>
          <tuv xml:lang="JA" changedate="20190904T132540Z" changeid="aoki-kiyohito">
             <seg>HTTP コンテンツのセキュリティポリシーをオーバーライドする
 -------------------------------------</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_PASSWORD', 'password');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125440Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_PASSWORD', 'password');</seg>
          </tuv>
       </tu>
 
@@ -13407,6 +13707,16 @@ listen for incoming events.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>-  `Microsoft IIS 5.1 and IIS 6.0 &lt;http://php.net/manual/en/install.windows.iis6.php&gt;`__</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124703Z" changeid="aoki-kiyohito">
+            <seg>-  `Microsoft IIS 5.1 と IIS  6.0 &lt;http://php.net/manual/en/install.windows.iis6.php&gt;`__</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>getDefaultTaskColors
 --------------------</seg>
@@ -13546,6 +13856,16 @@ listen for incoming events.</seg>
 
          <tuv xml:lang="JA" changedate="20190313T151954Z" changeid="aoki-kiyohito">
             <seg>-  **パスワード*: パスワードは最低でも6文字以上必要です。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>cn: Kanboard Manager</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125421Z" changeid="aoki-kiyohito">
+            <seg>cn: Kanboard Manager</seg>
          </tuv>
       </tu>
 
@@ -13818,6 +14138,16 @@ at the top.</seg>
 
          <tuv xml:lang="JA" changedate="20190813T090021Z" changeid="aoki-kiyohito">
             <seg>&quot;border&quot;: &quot;#ffa000&quot;</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_BIND_TYPE', 'proxy');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125342Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_BIND_TYPE', 'proxy');</seg>
          </tuv>
       </tu>
 
@@ -14125,6 +14455,16 @@ have access to the project.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_USERNAME', 'cn=admin,DC=kanboard,DC=local');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125442Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_USERNAME', 'cn=admin,DC=kanboard,DC=local');</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>-  Sqlite database: ``db.sqlite``</seg>
          </tuv>
@@ -14213,6 +14553,16 @@ have access to the project.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>extension=php_mbstring.dll</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124239Z" changeid="aoki-kiyohito">
+            <seg>extension=php_mbstring.dll</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>-  iCalendar subscription link</seg>
          </tuv>
@@ -14261,6 +14611,16 @@ have access to the project.</seg>
 
          <tuv xml:lang="JA" changedate="20190816T143125Z" changeid="aoki-kiyohito">
             <seg>-  用途: **全てのタスク間の関係を取得する**</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>objectClass: posixAccount</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125453Z" changeid="aoki-kiyohito">
+            <seg>objectClass: posixAccount</seg>
          </tuv>
       </tu>
 
@@ -14366,6 +14726,34 @@ always accepted (YYYY-MM-DD or YYYY_MM_DD).</seg>
          <tuv xml:lang="JA" changedate="20190220T131046Z" changeid="aoki-kiyohito">
             <seg>アップロードされたファイルのフォルダ
 -------------------------</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>objectClass: person</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125417Z" changeid="aoki-kiyohito">
+            <seg>objectClass: person</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>+--------------+
+| PHP Version  |
++==============+
+| PHP &gt;= 7.2   |
++--------------+</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125754Z" changeid="aoki-kiyohito">
+            <seg>+--------------+
+| PHP Version  |
++==============+
+| PHP &gt;= 7.2   |
++--------------+</seg>
          </tuv>
       </tu>
 
@@ -15240,6 +15628,16 @@ executed.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_USER_FILTER', '(&amp;(objectClass=user)(sAMAccountName=%s))');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125401Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_USER_FILTER', '(&amp;(objectClass=user)(sAMAccountName=%s))');</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>The translations must be stored in the file
 ``plugins/Myplugin/Locale/xx_XX/translations.php`` (replace xx_XX by the
@@ -15434,6 +15832,16 @@ directory, run the command ``phpunit -c tests/units.mysql.xml``.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg># enable php7</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130555Z" changeid="aoki-kiyohito">
+            <seg># php7 を有効にする</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>Boards
 ======</seg>
@@ -15492,6 +15900,16 @@ directory, run the command ``phpunit -c tests/units.mysql.xml``.</seg>
 
          <tuv xml:lang="JA" changedate="20190821T002719Z" changeid="aoki-kiyohito">
             <seg>&quot;method&quot;: &quot;moveTaskToProject&quot;,</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>gidNumber: 5001</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125504Z" changeid="aoki-kiyohito">
+            <seg>gidNumber: 5001</seg>
          </tuv>
       </tu>
 
@@ -15893,6 +16311,16 @@ is available for each project.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg># Install the windows service</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124044Z" changeid="aoki-kiyohito">
+            <seg># Windows サービスのインストール</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>-  https://support.microsoft.com/en-us/kb/316112</seg>
          </tuv>
@@ -15926,6 +16354,16 @@ object ``JsonRPC\Server``.</seg>
 
          <tuv xml:lang="JA" changedate="20190829T134436Z" changeid="aoki-kiyohito">
             <seg>``$this-&gt;container['api']`` か、 ``$this-&gt;api`` がインスタンスのオブジェクト ``JsonRPC\Server`` を示します。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_GROUP_PROVIDER', true);</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125406Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_GROUP_PROVIDER', true);</seg>
          </tuv>
       </tu>
 
@@ -16101,12 +16539,18 @@ object ``JsonRPC\Server``.</seg>
       </tu>
 
       <tu>
+         <prop type="x-merge-mt">true</prop>
+
          <tuv xml:lang="EN-US">
             <seg>Task creation:</seg>
          </tuv>
 
          <tuv xml:lang="JA" changedate="20190822T144223Z" changeid="aoki-kiyohito">
             <seg>タスクの作成:</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T130252Z" changeid="aoki-kiyohito">
+            <seg>Task creation:</seg>
          </tuv>
       </tu>
 
@@ -16202,6 +16646,16 @@ root, you need to create at least these symlinks:</seg>
 
          <tuv xml:lang="JA" changedate="20190317T074957Z" changeid="aoki-kiyohito">
             <seg>- Web UIは反応が良く、完璧では無くても何かを素早く確認できます。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>&quot;metaKey2&quot;: &quot;metaValue2&quot;</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T125205Z" changeid="aoki-kiyohito">
+            <seg>&quot;metaKey2&quot;: &quot;metaValue2&quot;</seg>
          </tuv>
       </tu>
 
@@ -16604,6 +17058,16 @@ Kanboard to another version, the database schema is updated for you.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>sudo chown -R wwwrun /srv/www/htdocs/kanboard-&lt;version&gt;/data</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130627Z" changeid="aoki-kiyohito">
+            <seg>sudo chown -R wwwrun /srv/www/htdocs/kanboard-&lt;version&gt;/data</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>Removing a project removes all tasks that belong to this project.</seg>
          </tuv>
@@ -16742,6 +17206,16 @@ Kanboard to another version, the database schema is updated for you.</seg>
          <tuv xml:lang="JA" changedate="20190815T144812Z" changeid="aoki-kiyohito">
             <seg>updateGroup
 -----------</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_USER_FILTER', 'uid=%s');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125443Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_USER_FILTER', 'uid=%s');</seg>
          </tuv>
       </tu>
 
@@ -16889,6 +17363,16 @@ supported, for example ``next Thursday``, ``-2 days``, ``+2 months``,
 
          <tuv xml:lang="JA" changedate="20190309T115507Z" changeid="aoki-kiyohito">
             <seg>全ての文字列フォーマットは ``strtotime()`` 関数をサポートしており、例えば``next Thursday``, ``-2 days``, ``+2 months``, ``tomorrow`` 等があります。 </seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_GROUP_FILTER', '(&amp;(objectClass=group)(sAMAccountName=%s*))');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125408Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_GROUP_FILTER', '(&amp;(objectClass=group)(sAMAccountName=%s*))');</seg>
          </tuv>
       </tu>
 
@@ -17113,12 +17597,18 @@ supported, for example ``next Thursday``, ``-2 days``, ``+2 months``,
       </tu>
 
       <tu>
+         <prop type="x-merge-mt">true</prop>
+
          <tuv xml:lang="EN-US">
             <seg>-  **id** (integer, required)</seg>
          </tuv>
 
          <tuv xml:lang="JA" changedate="20190815T080306Z" changeid="aoki-kiyohito">
             <seg>-  **id** (integer, 必須)</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T113651Z" changeid="aoki-kiyohito">
+            <seg>-  **id** (integer, 必須</seg>
          </tuv>
       </tu>
 
@@ -17580,6 +18070,16 @@ to use Postgresql.</seg>
 
          <tuv xml:lang="JA" changedate="20190829T124324Z" changeid="aoki-kiyohito">
             <seg>$this-&gt;hook-&gt;on('hook_name', $callable);</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Go to http://localhost/phpinfo.php and should see all information about your PHP installation.</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124551Z" changeid="aoki-kiyohito">
+            <seg>http://localhost/phpinfo.php を開いたら、PHPのインストールについての情報が表示されるはずです。</seg>
          </tuv>
       </tu>
 
@@ -18423,6 +18923,16 @@ LDAP server use ``memberUid`` instead of ``memberOf``.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg># change this directive</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124532Z" changeid="aoki-kiyohito">
+            <seg># change this directive</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>That means there are too many tasks in progress at the same time.</seg>
          </tuv>
@@ -19188,6 +19698,16 @@ fields without having to create new tables.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>This configuration require the `Rewrite module for IIS &lt;http://www.iis.net/learn/extensions/url-rewrite-module/using-the-url-rewrite-module&gt;`__.</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124843Z" changeid="aoki-kiyohito">
+            <seg>この設定には `Rewrite module for IIS &lt;http://www.iis.net/learn/extensions/url-rewrite-module/using-the-url-rewrite-module&gt;`__ が必要になります。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>The issue caused can be a
 blank page or an Apache crash:</seg>
@@ -19247,6 +19767,16 @@ blank page or an Apache crash:</seg>
 
          <tuv xml:lang="JA" changedate="20190316T050649Z" changeid="aoki-kiyohito">
             <seg>yum install -y php php-xml php-mbstring php-pdo php-gd unzip wget</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>If you don’t have the rewrite module, you will get an internal server error (500) from IIS.</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124846Z" changeid="aoki-kiyohito">
+            <seg>このRewriteモジュールが無い場合、IISは Internal Server Error (500) を返します。</seg>
          </tuv>
       </tu>
 
@@ -19350,6 +19880,26 @@ blank page or an Apache crash:</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg># cleanup</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130704Z" changeid="aoki-kiyohito">
+            <seg># クリーンアップ</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>gidNumber: 8000</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125457Z" changeid="aoki-kiyohito">
+            <seg>gidNumber: 8000</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>Task details are also available in read-only mode.</seg>
          </tuv>
@@ -19396,6 +19946,16 @@ blank page or an Apache crash:</seg>
 
          <tuv xml:lang="JA" changedate="20190821T135916Z" changeid="aoki-kiyohito">
             <seg>-  コンポーザー</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_GROUP_BASE_DN', 'CN=Users,DC=kanboard,DC=local');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125407Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_GROUP_BASE_DN', 'CN=Users,DC=kanboard,DC=local');</seg>
          </tuv>
       </tu>
 
@@ -19506,6 +20066,16 @@ the class ``Kanboard\Core\Plugin\Hook``:</seg>
 
          <tuv xml:lang="JA" changedate="20190331T142622Z" changeid="aoki-kiyohito">
             <seg>-  6回認証に失敗した後は、15分間アカウントがロックされます。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_SERVER', 'my-ldap-server');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125325Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_SERVER', 'my-ldap-server');</seg>
          </tuv>
       </tu>
 
@@ -20760,6 +21330,16 @@ for example.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>-  Scrum has pre-defined roles like scrum master, product owners and the team</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T130648Z" changeid="aoki-kiyohito">
+            <seg>-  スクラムでは、スクラムマスター、プロダクトオーナー、チームといったような規定の役割があります</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>-  Properties that returns an empty string won’t be synced</seg>
          </tuv>
@@ -21886,6 +22466,18 @@ database is recreated for each execution.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>Ubuntu Bionic 18.04 LTS
+-----------------------</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130712Z" changeid="aoki-kiyohito">
+            <seg>Ubuntu Bionic 18.04 LTS
+-----------------------</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>-  Actions</seg>
          </tuv>
@@ -21902,6 +22494,16 @@ database is recreated for each execution.</seg>
 
          <tuv xml:lang="JA" changedate="20190309T120650Z" changeid="aoki-kiyohito">
             <seg>``..`` (2つのドット)でデータを区切ってください。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_GROUP_USER_FILTER', '(&amp;(objectClass=posixGroup)(memberUid=%s))');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125602Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_GROUP_USER_FILTER', '(&amp;(objectClass=posixGroup)(memberUid=%s))');</seg>
          </tuv>
       </tu>
 
@@ -21965,6 +22567,16 @@ database is recreated for each execution.</seg>
          <tuv xml:lang="JA" changedate="20190815T115924Z" changeid="aoki-kiyohito">
             <seg>getExternalTaskLinkProviderDependencies
 ---------------------------------------</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>This guide will help you to setup step by step Kanboard on a Windows Server with IIS and PHP.</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124615Z" changeid="aoki-kiyohito">
+            <seg>このガイドは、Windows Server上でIISとPHPを利用してKanboardをセットアップするために順を追ったヘルプです。</seg>
          </tuv>
       </tu>
 
@@ -22179,6 +22791,8 @@ Directory &lt;http://social.technet.microsoft.com/wiki/contents/articles/5392.ac
       </tu>
 
       <tu>
+         <prop type="x-merge-mt">true</prop>
+
          <tuv xml:lang="EN-US">
             <seg>Automated Tests
 ===============</seg>
@@ -22186,6 +22800,11 @@ Directory &lt;http://social.technet.microsoft.com/wiki/contents/articles/5392.ac
 
          <tuv xml:lang="JA" changedate="20190821T111127Z" changeid="aoki-kiyohito">
             <seg>自動テスト
+===============</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T114939Z" changeid="aoki-kiyohito">
+            <seg>Automated Tests
 ===============</seg>
          </tuv>
       </tu>
@@ -22352,6 +22971,16 @@ set for all users.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg># install required packages</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130543Z" changeid="aoki-kiyohito">
+            <seg># 必要なパッケージのインストール</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>-  Purpose: **Update a user**</seg>
          </tuv>
@@ -22411,6 +23040,16 @@ set for all users.</seg>
 
          <tuv xml:lang="JA" changedate="20190814T041120Z" changeid="aoki-kiyohito">
             <seg>&quot;id&quot;: &quot;2&quot;,</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>sn: Lastname</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125420Z" changeid="aoki-kiyohito">
+            <seg>sn: Lastname</seg>
          </tuv>
       </tu>
 
@@ -23141,6 +23780,16 @@ PHP &lt;http://www.php.net/manual/en/features.commandline.webserver.php&gt;`__:<
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>-  `PHP for Windows is available here &lt;http://windows.php.net/download/&gt;`__</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124759Z" changeid="aoki-kiyohito">
+            <seg>-  `PHP for Windows はここから入手できます &lt;http://windows.php.net/download/&gt;`__</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>In the method ``initialize()`` of your plugin register your custom
 backend like that:</seg>
@@ -23784,6 +24433,16 @@ etc. please install proper PHP module from ``lang/php5-extensions``.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_USERNAME', 'administrator@kanboard.local');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125349Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_USERNAME', 'administrator@kanboard.local');</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>&quot;label&quot;: &quot;is a parent of&quot;,</seg>
          </tuv>
@@ -23871,6 +24530,16 @@ etc. please install proper PHP module from ``lang/php5-extensions``.</seg>
 
          <tuv xml:lang="JA" changedate="20190830T153948Z" changeid="aoki-kiyohito">
             <seg>│   ├── it_IT</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>DATABASE_URL: mysql://kanboard:kanboard-secret@db/kanboard</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125121Z" changeid="aoki-kiyohito">
+            <seg>DATABASE_URL: mysql://kanboard:kanboard-secret@db/kanboard</seg>
          </tuv>
       </tu>
 
@@ -24041,6 +24710,16 @@ and register the plugin.</seg>
          <tuv xml:lang="JA" changedate="20190330T131726Z" changeid="aoki-kiyohito">
             <seg>// LDAP 属性でユーザーのプロフィールからグループを見つける
     define('LDAP_USER_ATTRIBUTE_GROUPS', 'memberof');</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>-  If you got an error about “the library MSVCP110.dll is missing”, you probably need to download the Visual C++ Redistributable for Visual Studio from the Microsoft website.</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124829Z" changeid="aoki-kiyohito">
+            <seg>-  “the library MSVCP110.dll is missing”エラーが発生した場合、おそらくVisual C++ Redistributable for Visual Studioを再インストールする必要があるでしょう。</seg>
          </tuv>
       </tu>
 
@@ -24308,6 +24987,16 @@ link &lt;http://spring.io/guides/gs/consuming-rest&gt;`__.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_USER_ATTRIBUTE_FULLNAME', 'displayname');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125402Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_USER_ATTRIBUTE_FULLNAME', 'displayname');</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>- No one manages projects in the same way, this is not possible to satisfy the workflow of everyone.</seg>
          </tuv>
@@ -24567,6 +25256,16 @@ and group:</seg>
          <tuv xml:lang="JA" changedate="20190821T002737Z" changeid="aoki-kiyohito">
             <seg>duplicateTaskToProject
 ----------------------</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Navigate to the PHP folder and rename the file ``php.ini-production`` to ``php.ini``</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124118Z" changeid="aoki-kiyohito">
+            <seg>PHPフォルダに移動して、``php.ini-production`` ファイルを ``php.ini`` にリネームする</seg>
          </tuv>
       </tu>
 
@@ -24832,6 +25531,16 @@ to get the .htaccess files working:</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>userPassword: password</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125426Z" changeid="aoki-kiyohito">
+            <seg>userPassword: password</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>This calendar shows only tasks assigned to the user and optionally
 sub-tasks information.</seg>
@@ -24955,6 +25664,16 @@ user is enough.</seg>
 
          <tuv xml:lang="JA" changedate="20190821T113724Z" changeid="aoki-kiyohito">
             <seg>./cli js</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>objectClass: inetOrgPerson</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125418Z" changeid="aoki-kiyohito">
+            <seg>objectClass: inetOrgPerson</seg>
          </tuv>
       </tu>
 
@@ -25573,6 +26292,16 @@ plugin directory structure:</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_USER_BASE_DN', 'CN=Users,DC=kanboard,DC=local');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125400Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_USER_BASE_DN', 'CN=Users,DC=kanboard,DC=local');</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>[Wed Mar 05 21:36:56 2014] [notice] child pid 22630 exit signal Segmentation fault (11)</seg>
          </tuv>
@@ -25703,6 +26432,16 @@ plugin directory structure:</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>-  Best performances are obtained with the latest version of PHP with OpCode caching activated.</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130113Z" changeid="aoki-kiyohito">
+            <seg>-  最良のパフォーマンスを得るために、OpCode キャッシュが有効化された最新のPHP</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>IIS Configuration Example
 -------------------------</seg>
@@ -25722,6 +26461,16 @@ default one.</seg>
 
          <tuv xml:lang="JA" changedate="20190830T144756Z" changeid="aoki-kiyohito">
             <seg>この配列は最初の配列にマージされます。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>LoadModule php5_module &quot;c:/php/php5apache2_4.dll&quot; AddHandler application/x-httpd-php .php</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124315Z" changeid="aoki-kiyohito">
+            <seg>LoadModule php5_module &quot;c:/php/php5apache2_4.dll&quot; AddHandler application/x-httpd-php .php</seg>
          </tuv>
       </tu>
 
@@ -26215,6 +26964,16 @@ number from another software.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>memberOf: cn=Kanboard Managers,ou=Groups,dc=kanboard,dc=local</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125427Z" changeid="aoki-kiyohito">
+            <seg>memberOf: cn=Kanboard Managers,ou=Groups,dc=kanboard,dc=local</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>-  `SMS Two-Factor Authentication &lt;https://github.com/kanboard/plugin-sms-2fa&gt;`__</seg>
          </tuv>
@@ -26680,6 +27439,16 @@ directly to those class instance:</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>uid: manager</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125418Z" changeid="aoki-kiyohito">
+            <seg>uid: manager</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>Plugin Methods
 --------------</seg>
@@ -26821,6 +27590,16 @@ iCal standard.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>homeDirectory: /home/manager</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125500Z" changeid="aoki-kiyohito">
+            <seg>homeDirectory: /home/manager</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>&quot;id&quot;: 645233805,</seg>
          </tuv>
@@ -26954,12 +27733,18 @@ iCal standard.</seg>
       </tu>
 
       <tu>
+         <prop type="x-merge-mt">true</prop>
+
          <tuv xml:lang="EN-US">
             <seg>-  Result on success: **List of comments**</seg>
          </tuv>
 
          <tuv xml:lang="JA" changedate="20190815T102427Z" changeid="aoki-kiyohito">
             <seg>-  成功時の返り値: **コメントのリスト**</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T131447Z" changeid="aoki-kiyohito">
+            <seg>-  Result on success: **コメントのリスト**</seg>
          </tuv>
       </tu>
 
@@ -28172,6 +28957,16 @@ class ``Kanboard\Core\Event\EventManager``:</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>objectClass: shadowAccount</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125453Z" changeid="aoki-kiyohito">
+            <seg>objectClass: shadowAccount</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>Navigate to the PHP folder and rename the file ``php.ini-production``
    to ``php.ini``</seg>
@@ -28283,6 +29078,16 @@ class ``Kanboard\Core\Event\EventManager``:</seg>
 
          <tuv xml:lang="JA" changedate="20190309T120423Z" changeid="aoki-kiyohito">
             <seg>属性: **swimlane**</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>displayName: Kanboard Manager</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125422Z" changeid="aoki-kiyohito">
+            <seg>displayName: Kanboard Manager</seg>
          </tuv>
       </tu>
 
@@ -29462,6 +30267,16 @@ Directory &lt;http://social.technet.microsoft.com/wiki/contents/articles/5392.ac
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>sudo apt-get update</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130716Z" changeid="aoki-kiyohito">
+            <seg>sudo apt-get update</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>System.out.println(answer);</seg>
          </tuv>
@@ -29740,6 +30555,16 @@ theme and override all Kanboard default styles.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>objectClass: organizationalPerson</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125418Z" changeid="aoki-kiyohito">
+            <seg>objectClass: organizationalPerson</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>&quot;github.webhook.issue.label&quot;: &quot;Github issue label change&quot;,</seg>
          </tuv>
@@ -29864,6 +30689,16 @@ theme and override all Kanboard default styles.</seg>
 
          <tuv xml:lang="JA" changedate="20190816T145410Z" changeid="aoki-kiyohito">
             <seg>&quot;subtasks&quot;: []</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>If you don’t want to have Kanboard with nice URLs, you can remove the file ``web.config``.</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124849Z" changeid="aoki-kiyohito">
+            <seg>Kanboard でURL Rewriteを利用しない場合、 ``web.config``ファイルを削除できます。</seg>
          </tuv>
       </tu>
 
@@ -30031,6 +30866,16 @@ your PHP installation.</seg>
 
          <tuv xml:lang="JA" changedate="20190317T141735Z" changeid="aoki-kiyohito">
             <seg>-  このオプションは&quot;プロジェクトの毎日の統計&quot;の表中の&quot;合計&quot;列に影響します。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>sudo apt-get install nginx php7.2-fpm php7.2-mysql php7.2-pgsql php7.2-gd php7.2-mbstring php7.2-sqlite3 \</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130757Z" changeid="aoki-kiyohito">
+            <seg>sudo apt-get install nginx php7.2-fpm php7.2-mysql php7.2-pgsql php7.2-gd php7.2-mbstring php7.2-sqlite3 \</seg>
          </tuv>
       </tu>
 
@@ -30553,12 +31398,18 @@ method name.</seg>
       </tu>
 
       <tu>
+         <prop type="x-merge-mt">true</prop>
+
          <tuv xml:lang="EN-US">
             <seg>Uncomment extension directory:</seg>
          </tuv>
 
          <tuv xml:lang="JA" changedate="20190316T060601Z" changeid="aoki-kiyohito">
             <seg>拡張のディレクトリのコメント化を解除する:</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124229Z" changeid="aoki-kiyohito">
+            <seg>エクステンションのディレクトリのコメント化を解除する:</seg>
          </tuv>
       </tu>
 
@@ -31100,6 +31951,16 @@ Kanboard &lt;https://github.com/kanboard/python-api-client&gt;`__:</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>This page hasn't been updated for a while, and it's probably obsolete.</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130339Z" changeid="aoki-kiyohito">
+            <seg>このページは長い間更新されておらず、古い可能性があります。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>-  ``Kanboard\Core\ExternalTask\ExternalTaskException``: Generic error related to the external system</seg>
          </tuv>
@@ -31159,6 +32020,16 @@ user interface.</seg>
 
          <tuv xml:lang="JA" changedate="20190331T143509Z" changeid="aoki-kiyohito">
             <seg>15分も待てない場合、ユーザーインターフェースからロックを解除することができます。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>PHPIniDir &quot;C:/php&quot;</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124525Z" changeid="aoki-kiyohito">
+            <seg>PHPIniDir &quot;C:/php&quot;</seg>
          </tuv>
       </tu>
 
@@ -31996,6 +32867,16 @@ factor of days, months or years.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_GROUP_ADMIN_DN', 'cn=Kanboard Admins,ou=Groups,dc=kanboard,dc=local');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125444Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_GROUP_ADMIN_DN', 'cn=Kanboard Admins,ou=Groups,dc=kanboard,dc=local');</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>// Hide login form, useful if all your users use Google/Github/ReverseProxy authentication
     define('HIDE_LOGIN_FORM', false);</seg>
@@ -32436,6 +33317,16 @@ are defined for each project.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>objectClass: posixGroup</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125503Z" changeid="aoki-kiyohito">
+            <seg>objectClass: posixGroup</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>code:: bash</seg>
          </tuv>
@@ -32768,6 +33659,16 @@ somewhere else when nobody use the software.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>The Kanboard archive contains a ``web.config`` file to enable URL rewriting.</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124838Z" changeid="aoki-kiyohito">
+            <seg>Kanboardアーカイブに含まれる ``web.config`` ファイルでURL rewritingを有効にします。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>This tool can be used only on the local machine.</seg>
          </tuv>
@@ -32843,6 +33744,16 @@ instance is created.</seg>
 
          <tuv xml:lang="JA" changedate="20190829T125503Z" changeid="aoki-kiyohito">
             <seg>-  Add more events to the user calendar</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>-  **dependency** (string, optional)</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T131638Z" changeid="aoki-kiyohito">
+            <seg>-  **type** (string, 任意)</seg>
          </tuv>
       </tu>
 
@@ -33331,6 +34242,16 @@ descriptions.</seg>
 
          <tuv xml:lang="JA" changedate="20190308T152601Z" changeid="aoki-kiyohito">
             <seg>-  特定のカラム間でのみタスクの移動を許可する</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>-  Limits help avoid working on too many tasks at the same time</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T130623Z" changeid="aoki-kiyohito">
+            <seg>-  同時にあまりにも多くのタスクを処理するのを避けるよう制限します</seg>
          </tuv>
       </tu>
 
@@ -34022,6 +34943,18 @@ of Kanboard.</seg>
 
          <tuv xml:lang="JA" changedate="20190813T090018Z" changeid="aoki-kiyohito">
             <seg>&quot;dark_grey&quot;: {</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>This
+method works only with LDAP authentication configured in proxy or
+anonymous mode.</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T114237Z" changeid="aoki-kiyohito">
+            <seg>この方法はLDAP認証が &quot;proxy&quot; モードか &quot;anonymous&quot; モードに設定されている場合のみ動作します。</seg>
          </tuv>
       </tu>
 
@@ -34922,6 +35855,48 @@ configured, this configuration is optional.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>+-------------------------------------+
+| Operating System                    |
++=====================================+
+| Alpine Linux                        |
++-------------------------------------+
+| Linux Ubuntu                        |
++-------------------------------------+
+| Linux Centos                        |
++-------------------------------------+
+| Linux Redhat                        |
++-------------------------------------+
+| Linux Debian                        |
++-------------------------------------+
+| FreeBSD                             |
++-------------------------------------+
+| Microsoft Windows                   |
++-------------------------------------+</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125638Z" changeid="aoki-kiyohito">
+            <seg>+-------------------------------------+
+| Operating System                    |
++=====================================+
+| Alpine Linux                        |
++-------------------------------------+
+| Linux Ubuntu                        |
++-------------------------------------+
+| Linux Centos                        |
++-------------------------------------+
+| Linux Redhat                        |
++-------------------------------------+
+| Linux Debian                        |
++-------------------------------------+
+| FreeBSD                             |
++-------------------------------------+
+| Microsoft Windows                   |
++-------------------------------------+</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>&quot;id&quot;: 899370297,</seg>
          </tuv>
@@ -35242,6 +36217,16 @@ instructions below:</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>-  Double click on ``C:\Apache24\bin\ApacheMonitor.exe``, or put it in your startup folder.</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124052Z" changeid="aoki-kiyohito">
+            <seg>-  ``C:\Apache24\bin\ApacheMonitor.exe``をダブルクリックするか、これをスタートアップフォルダに入れる。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>&quot;content&quot;: &quot;Comment #1&quot;</seg>
          </tuv>
@@ -35419,6 +36404,16 @@ it’s possible to improve that.</seg>
 
          <tuv xml:lang="JA" changedate="20190815T083913Z" changeid="aoki-kiyohito">
             <seg>&quot;method&quot;: &quot;updateColumn&quot;,</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg># Add permissions</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130641Z" changeid="aoki-kiyohito">
+            <seg># パーミッションを正しくする(ファイルの所有者を変更する)</seg>
          </tuv>
       </tu>
 
@@ -36253,6 +37248,16 @@ menu on the board:</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>(or) Install Nginx and PHP:</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130755Z" changeid="aoki-kiyohito">
+            <seg>(もしくは) Nginx と PHP をインストールする:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>-  If you use another web server than Apache, for example Nginx or
    Microsoft IIS, you have to configure yourself the URL rewriting</seg>
@@ -36571,6 +37576,16 @@ you are using Sqlite.</seg>
 
          <tuv xml:lang="JA" changedate="20190228T155810Z" changeid="aoki-kiyohito">
             <seg>-  アイデア</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>-  Your work is displayed on a board so that you have a clear overview of your project</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T130557Z" changeid="aoki-kiyohito">
+            <seg>-  作業がボード上で視覚化されることにより、プロジェクトの概要が明確になります。</seg>
          </tuv>
       </tu>
 
@@ -37714,12 +38729,18 @@ in uppercase with the function ``ucfirst()``.</seg>
       </tu>
 
       <tu>
+         <prop type="x-merge-mt">true</prop>
+
          <tuv xml:lang="EN-US">
             <seg>-  Install PHP by following the official documentation:</seg>
          </tuv>
 
          <tuv xml:lang="JA" changedate="20190316T061850Z" changeid="aoki-kiyohito">
             <seg>-  公式ドキュメントに従って  PHP をインストールする:</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124719Z" changeid="aoki-kiyohito">
+            <seg>-  以下で示す公式ドキュメントに従って  PHP をインストールする:</seg>
          </tuv>
       </tu>
 
@@ -37794,6 +38815,16 @@ in uppercase with the function ``ucfirst()``.</seg>
 
          <tuv xml:lang="JA" changedate="20190820T231800Z" changeid="aoki-kiyohito">
             <seg>&quot;name&quot;: &quot;Swimlane 1&quot;,</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>memberUid: manager</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125505Z" changeid="aoki-kiyohito">
+            <seg>memberUid: manager</seg>
          </tuv>
       </tu>
 
@@ -38182,6 +39213,18 @@ as the database driver:</seg>
 
          <tuv xml:lang="JA" changedate="20190821T123826Z" changeid="aoki-kiyohito">
             <seg>_bug-report:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>Download the library from the `official Microsoft website &lt;http://www.microsoft.com/en-us/download/details.aspx?id=30679&gt;`__
+2.</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T123950Z" changeid="aoki-kiyohito">
+            <seg>このライブラリを `Microsoft 公式webサイト &lt;http://www.microsoft.com/en-us/download/details.aspx?id=30679&gt;`__ からダウンロードする
+2.</seg>
          </tuv>
       </tu>
 
@@ -39096,6 +40139,8 @@ Jabber or any chat system.</seg>
       </tu>
 
       <tu>
+         <prop type="x-merge-mt">true</prop>
+
          <tuv xml:lang="EN-US">
             <seg>Task API Procedures
 ===================</seg>
@@ -39104,6 +40149,11 @@ Jabber or any chat system.</seg>
          <tuv xml:lang="JA" changedate="20190821T000758Z" changeid="aoki-kiyohito">
             <seg>タスクのAPIプロシージャ
 ===========================</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T113139Z" changeid="aoki-kiyohito">
+            <seg>タスクのAPIプロシージャ
+===================</seg>
          </tuv>
       </tu>
 
@@ -39834,6 +40884,16 @@ jobs by calling a URL.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>objectClass: top</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125417Z" changeid="aoki-kiyohito">
+            <seg>objectClass: top</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>There are multiple ways to define a cronjob on Unix/Linux operating
 systems, this example is for Ubuntu 14.04.</seg>
@@ -40107,6 +41167,16 @@ hook callback must return an array.</seg>
 
          <tuv xml:lang="JA" changedate="20190906T150218Z" changeid="aoki-kiyohito">
             <seg>接頭辞のコロン ``:`` が、変数の定義です。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>sudo apt-get install -y apache2 libapache2-mod-php7.2 php7.2-cli php7.2-mbstring php7.2-sqlite3 \</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130723Z" changeid="aoki-kiyohito">
+            <seg>sudo apt-get install -y apache2 libapache2-mod-php7.2 php7.2-cli php7.2-mbstring php7.2-sqlite3 \</seg>
          </tuv>
       </tu>
 
@@ -41076,6 +42146,16 @@ that match the query.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>Create a file named ``phpinfo.php`` in the folder ``C:\Apache24\htdocs``:</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124546Z" changeid="aoki-kiyohito">
+            <seg>``phpinfo.php`` という名前で、``C:\Apache24\htdocs``に以下の内容のファイルを作成する:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>public function notifyProject(array $project, $event_name, array $event_data);</seg>
          </tuv>
@@ -41135,6 +42215,16 @@ tasks** from the filter drop-down.</seg>
 
          <tuv xml:lang="JA" changedate="20190228T135235Z" changeid="aoki-kiyohito">
             <seg>-  アクション: **カテゴリに基いて色を変える** を選択</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>uidNumber: 10001</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125457Z" changeid="aoki-kiyohito">
+            <seg>uidNumber: 10001</seg>
          </tuv>
       </tu>
 
@@ -42031,6 +43121,16 @@ is validated, swap it to the “Development” project.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>extension=php_pdo_sqlite.dll</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124240Z" changeid="aoki-kiyohito">
+            <seg>extension=php_pdo_sqlite.dll</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>OK (2 tests, 5 assertions)</seg>
          </tuv>
@@ -42173,6 +43273,16 @@ execute one by one each migration until to reach the last version.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg># configure the path to php.ini</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124523Z" changeid="aoki-kiyohito">
+            <seg># php.iniへのパスを設定する</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>Kanboard support batch requests, so you can make multiple API calls in a single HTTP request.</seg>
          </tuv>
@@ -42227,6 +43337,16 @@ execute one by one each migration until to reach the last version.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>- Since the version 1.2.13, Kanboard requires at least PHP 7.2</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125818Z" changeid="aoki-kiyohito">
+            <seg>- Kanboard 1.2.13 以降では、PHP 7.2 以降が必要になります。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>Webhooks
 ========</seg>
@@ -42239,12 +43359,18 @@ execute one by one each migration until to reach the last version.</seg>
       </tu>
 
       <tu>
+         <prop type="x-merge-mt">true</prop>
+
          <tuv xml:lang="EN-US">
             <seg>warning:: Please, do not update the software blindly without reading the `ChangeLog &lt;https://github.com/kanboard/kanboard/blob/master/ChangeLog&gt;`_.</seg>
          </tuv>
 
          <tuv xml:lang="JA" changedate="20190316T122642Z" changeid="aoki-kiyohito">
             <seg>警告:: `ChangeLog &lt;https://github.com/kanboard/kanboard/blob/master/ChangeLog&gt;`_ を見ること無しで盲目的なアップデートをしないでください。</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T124854Z" changeid="aoki-kiyohito">
+            <seg>警告:: `ChangeLog &lt;https://github.com/kanboard/kanboard/blob/master/ChangeLog&gt;`_ を読まずにアップデートしないでください。</seg>
          </tuv>
       </tu>
 
@@ -43062,6 +44188,16 @@ class name with the name space included.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>givenName: Firstname</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125420Z" changeid="aoki-kiyohito">
+            <seg>givenName: Firstname</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>-  Override time spent calculation when sub-task timer is stopped</seg>
          </tuv>
@@ -43258,6 +44394,16 @@ the Markdown syntax.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>chown -R www-data:www-data kanboard-&lt;version&gt;/data</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130801Z" changeid="aoki-kiyohito">
+            <seg>chown -R www-data:www-data kanboard-&lt;version&gt;/data</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>-  Italic text: Use 1 asterisk or 1 underscore</seg>
          </tuv>
@@ -43355,6 +44501,8 @@ unassigned** after the operation.</seg>
       </tu>
 
       <tu>
+         <prop type="x-merge-mt">true</prop>
+
          <tuv xml:lang="EN-US">
             <seg>User API Procedures
 ===================</seg>
@@ -43362,6 +44510,11 @@ unassigned** after the operation.</seg>
 
          <tuv xml:lang="JA" changedate="20190821T003321Z" changeid="aoki-kiyohito">
             <seg>ユーザーAPIのプロシージャ
+===================</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T114148Z" changeid="aoki-kiyohito">
+            <seg>User API Procedures
 ===================</seg>
          </tuv>
       </tu>
@@ -43457,6 +44610,16 @@ create projects with the same columns.</seg>
 
          <tuv xml:lang="JA" changedate="20190309T115114Z" changeid="aoki-kiyohito">
             <seg>-  色名で検索: ``color:&quot;Deep Orange&quot;``</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>-  A lot of meetings: planning, backlogs grooming, daily stand-up, retrospective</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T130653Z" changeid="aoki-kiyohito">
+            <seg>-  ミーティングが何度も必要: 計画立案、バックログ・グルーミング、デイリースタンドアップ(いわゆる「朝礼」？)、振り返り</seg>
          </tuv>
       </tu>
 
@@ -44023,6 +45186,16 @@ version is checked at each request.</seg>
          <tuv xml:lang="JA" changedate="20190309T115623Z" changeid="aoki-kiyohito">
             <seg>変更日で検索
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>unzip kanboard-&lt;version&gt;.zip</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130442Z" changeid="aoki-kiyohito">
+            <seg>unzip kanboard-&lt;version&gt;.zip</seg>
          </tuv>
       </tu>
 
@@ -44652,6 +45825,16 @@ the same thread as the HTTP request.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>sudo rcapache2 restart</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130654Z" changeid="aoki-kiyohito">
+            <seg>sudo rcapache2 restart</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>// Log filename if the log driver is &quot;file&quot;
     define('LOG_FILE', __DIR__.DIRECTORY_SEPARATOR.'data'.DIRECTORY_SEPARATOR.'debug.log');</seg>
@@ -44851,6 +46034,16 @@ you can remove the file ``web.config``.</seg>
 
          <tuv xml:lang="JA" changedate="20190324T094907Z" changeid="aoki-kiyohito">
             <seg>-  Postgresql 9.3以上</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_GROUP_ADMIN_DN', 'CN=Kanboard Admins,CN=Users,DC=kanboard,DC=local');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125405Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_GROUP_ADMIN_DN', 'CN=Kanboard Admins,CN=Users,DC=kanboard,DC=local');</seg>
          </tuv>
       </tu>
 
@@ -45268,6 +46461,16 @@ hooks or any third-party integration.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_GROUP_MANAGER_DN', 'cn=Kanboard Managers,ou=Groups,dc=kanboard,dc=local');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125444Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_GROUP_MANAGER_DN', 'cn=Kanboard Managers,ou=Groups,dc=kanboard,dc=local');</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>Search by event creation date
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</seg>
@@ -45560,6 +46763,16 @@ a user click on the **edit link**.</seg>
 
          <tuv xml:lang="JA" changedate="20190822T144351Z" changeid="aoki-kiyohito">
             <seg>タスクのリンクの作成:</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_USER_ATTRIBUTE_USERNAME', 'samaccountname');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125402Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_USER_ATTRIBUTE_USERNAME', 'samaccountname');</seg>
          </tuv>
       </tu>
 
@@ -46424,6 +47637,26 @@ shortcut **&quot;s&quot;** or by using the drop-down menu on the left.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>-  PHP 7.2</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T130029Z" changeid="aoki-kiyohito">
+            <seg>-  PHP 7.2</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>-  PHP 7.3</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T130029Z" changeid="aoki-kiyohito">
+            <seg>-  PHP 7.3</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>-  PHP 7.0</seg>
          </tuv>
@@ -46494,6 +47727,16 @@ using Selenium.</seg>
 
          <tuv xml:lang="JA" changedate="20190822T133548Z" changeid="aoki-kiyohito">
             <seg>受入テスト (もしくは end-to-end テスト、機能テスト) はSeleniumを使用してブラウザ上のUIが実際に機能するかテストします。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>-  PHP 7.4</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T130029Z" changeid="aoki-kiyohito">
+            <seg>-  PHP 7.4</seg>
          </tuv>
       </tu>
 
@@ -47817,6 +49060,16 @@ need to install it manually.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_GROUP_USER_FILTER', '(&amp;(objectClass=groupOfNames)(member=uid=%s,ou=Users,dc=kanboard,dc=local))');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125616Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_GROUP_USER_FILTER', '(&amp;(objectClass=groupOfNames)(member=uid=%s,ou=Users,dc=kanboard,dc=local))');</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>Tasks CSV export
 ~~~~~~~~~~~~~~~~</seg>
@@ -47863,6 +49116,16 @@ need to install it manually.</seg>
          <tuv xml:lang="JA" changedate="20190314T124309Z" changeid="aoki-kiyohito">
             <seg>“タスクスケジューラ”を開く
 3.</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>-  **values** (array, required)</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T125307Z" changeid="aoki-kiyohito">
+            <seg>-  **値** (連想配列, 必須)</seg>
          </tuv>
       </tu>
 
@@ -47934,6 +49197,16 @@ with `OPcache &lt;http://php.net/manual/en/intro.opcache.php&gt;`__.</seg>
 
          <tuv xml:lang="JA" changedate="20190821T092253Z" changeid="aoki-kiyohito">
             <seg>application_procedures</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>cn: Kanboard Managers</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125431Z" changeid="aoki-kiyohito">
+            <seg>cn: Kanboard Managers</seg>
          </tuv>
       </tu>
 
@@ -48657,6 +49930,16 @@ values**.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>rm kanboard-&lt;version&gt;.zip</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130446Z" changeid="aoki-kiyohito">
+            <seg>rm kanboard-&lt;version&gt;.zip</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>&quot;opposite_id&quot;: &quot;3&quot;</seg>
          </tuv>
@@ -49355,6 +50638,16 @@ this library if it’s not already done.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>-  `Microsoft IIS 7.0 and later &lt;http://php.net/manual/en/install.windows.iis7.php&gt;`__</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124739Z" changeid="aoki-kiyohito">
+            <seg>-  `Microsoft IIS 7.0 以降 &lt;http://php.net/manual/en/install.windows.iis7.php&gt;`__</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>server {
         listen 443 ssl default_server;
@@ -49467,6 +50760,16 @@ this library if it’s not already done.</seg>
 
          <tuv xml:lang="JA" changedate="20190815T112108Z" changeid="aoki-kiyohito">
             <seg>String xApiAuthToken = Base64.getEncoder().encodeToString(xApiAuthTokenBytes);</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>sudo wget https://github.com/kanboard/kanboard/archive/v&lt;version&gt;.zip</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130603Z" changeid="aoki-kiyohito">
+            <seg>sudo wget https://github.com/kanboard/kanboard/archive/v&lt;version&gt;.zip</seg>
          </tuv>
       </tu>
 
@@ -49970,6 +51273,16 @@ you can define here the list of categories to create automatically.</seg>
 
          <tuv xml:lang="JA" changedate="20190316T055722Z" changeid="aoki-kiyohito">
             <seg>cd C:\Apache24\bin</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>dn: uid=manager,ou=Users,dc=kanboard,dc=local</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125417Z" changeid="aoki-kiyohito">
+            <seg>dn: uid=manager,ou=Users,dc=kanboard,dc=local</seg>
          </tuv>
       </tu>
 
@@ -50800,12 +52113,18 @@ each request when the plugin is loaded.</seg>
       </tu>
 
       <tu>
+         <prop type="x-merge-mt">true</prop>
+
          <tuv xml:lang="EN-US">
             <seg>Install Kanboard:</seg>
          </tuv>
 
          <tuv xml:lang="JA" changedate="20190314T130249Z" changeid="aoki-kiyohito">
             <seg>Install Kanboard:</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130416Z" changeid="aoki-kiyohito">
+            <seg>Kanboardのインストール:</seg>
          </tuv>
       </tu>
 
@@ -51903,6 +53222,16 @@ command ``VACUUM``.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>The list of supported time zones can be found in the `PHP documentation &lt;http://php.net/manual/en/timezones.america.php&gt;`__.</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124250Z" changeid="aoki-kiyohito">
+            <seg>`PHP documentation &lt;http://php.net/manual/en/timezones.america.php&gt;`__ に、サポートしているタイムゾーンの一覧があります。</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>-  Purpose: **Get logged user session**</seg>
          </tuv>
@@ -51963,6 +53292,16 @@ command ``VACUUM``.</seg>
          <tuv xml:lang="JA" changedate="20190316T050212Z" changeid="aoki-kiyohito">
             <seg>OpenSuse Leap 42.3
 ------------------</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>define('LDAP_GROUP_FILTER', '(&amp;(objectClass=posixGroup)(cn=%s*))');</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125605Z" changeid="aoki-kiyohito">
+            <seg>define('LDAP_GROUP_FILTER', '(&amp;(objectClass=posixGroup)(cn=%s*))');</seg>
          </tuv>
       </tu>
 
@@ -53153,6 +54492,16 @@ ticketing software.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>extension=php_ldap.dll</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124239Z" changeid="aoki-kiyohito">
+            <seg>extension=php_ldap.dll</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>-  You are using Microsoft Windows Server and IIS</seg>
          </tuv>
@@ -53211,6 +54560,26 @@ ticketing software.</seg>
 
          <tuv xml:lang="JA" changedate="20190815T125354Z" changeid="aoki-kiyohito">
             <seg>&quot;timezone&quot;: null,</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>extension=php_gd2.dll</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T124239Z" changeid="aoki-kiyohito">
+            <seg>extension=php_gd2.dll</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>chown -R apache:apache kanboard-&lt;version&gt;/data</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T130444Z" changeid="aoki-kiyohito">
+            <seg>chown -R apache:apache kanboard-&lt;version&gt;/data</seg>
          </tuv>
       </tu>
 
@@ -53434,6 +54803,16 @@ ticketing software.</seg>
       </tu>
 
       <tu>
+         <tuv xml:lang="en-US">
+            <seg>Run the installer ``vcredist_x64.exe`` or ``vcredist_x86.exe`` according to your platform</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T123954Z" changeid="aoki-kiyohito">
+            <seg>インストール先のプラットフォームに合わせて ``vcredist_x64.exe`` か ``vcredist_x86.exe`` のインストーラを実行する</seg>
+         </tuv>
+      </tu>
+
+      <tu>
          <tuv xml:lang="EN-US">
             <seg>figure:: /_static/example-restriction-task-status.png
    :alt: Example restriction task status</seg>
@@ -53589,6 +54968,16 @@ ldap username, examples:</seg>
 
          <tuv xml:lang="JA" changedate="20190816T142815Z" changeid="aoki-kiyohito">
             <seg>&quot;label&quot;: &quot;relates to&quot;,</seg>
+         </tuv>
+      </tu>
+
+      <tu>
+         <tuv xml:lang="en-US">
+            <seg>objectClass: groupOfNames</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200417T125430Z" changeid="aoki-kiyohito">
+            <seg>objectClass: groupOfNames</seg>
          </tuv>
       </tu>
 
@@ -54153,12 +55542,18 @@ controller is ``myserver.kanboard.local``.</seg>
       </tu>
 
       <tu>
+         <prop type="x-merge-mt">true</prop>
+
          <tuv xml:lang="EN-US">
             <seg>&quot;id&quot;: 1769674782,</seg>
          </tuv>
 
          <tuv xml:lang="JA" changedate="20190821T085857Z" changeid="aoki-kiyohito">
             <seg>&quot;id&quot;: 1769674782,</seg>
+         </tuv>
+
+         <tuv xml:lang="ja" changedate="20200421T114522Z" changeid="aoki-kiyohito">
+            <seg>d&quot;id&quot;: 1769674782,</seg>
          </tuv>
       </tu>
 

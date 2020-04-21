@@ -1,12 +1,16 @@
 OpenSuse へのインストール
 ========================
 
+.. 警告::
+
+    このページは長い間更新されておらず、古い可能性があります。
+
 OpenSuse Leap 42.3
 ------------------
 
 .. code:: bash
 
-    # 必要なパッケージをインストールする
+    # 必要なパッケージのインストール
     sudo zypper install apache2-mod_php7 php7-openssl php7-gd php7-mbstring php7-mcrypt php7-mysql php7-xmlrpc php7-ctype php7-json
 
     # php7 を有効にする
@@ -19,11 +23,11 @@ OpenSuse Leap 42.3
     sudo wget https://github.com/kanboard/kanboard/archive/v<version>.zip
     sudo unzip kanboard-<version>.zip
 
-    # フォルダ所有者を変更する
+    # パーミッションを正しくする(ファイルの所有者を変更する)
     sudo chown -R wwwrun /srv/www/htdocs/kanboard-<version>/data
 
-    # apache を再起動する
+    #Apache を再起動する
     sudo rcapache2 restart
 
-    # cleanup
+    # クリーンアップ
     sudo rm kanboard-<version>.zip

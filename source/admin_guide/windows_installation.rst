@@ -1,6 +1,10 @@
 Microsoft Windows Server へのインストール
 ========================================
 
+.. 警告::
+
+    このページは長い間更新されておらず、古い可能性があります。
+
 Windows Server と Apache
 -------------------------
 
@@ -56,14 +60,13 @@ http://localhost/ を開いたら、"It Works!"とだけ書かれたページが
 PHP のインストール
 ~~~~~~~~~~~~~~~~
 
-1. `official PHP website <http://windows.php.net/download/>`__ から、**Thread Safe**なバージョンで、
-    Apache同様に x86 or x64 を正確に選択して、最新安定版のPHPをダウンロードする。
+1. `official PHP website <http://windows.php.net/download/>`__ から、**Thread Safe**なバージョンで、Apache同様に x86 or x64 を正確に選択して、最新安定版のPHPをダウンロードする。
 2. ``C:\php`` にファイルを展開する
 3. PHPフォルダに移動して、``php.ini-production`` ファイルを ``php.ini`` にリネームする
 
 ``php.ini`` を編集する:
 
-拡張のディレクトリのコメント化を解除する:
+エクステンションのディレクトリのコメント化を解除する:
 
 .. code:: ini
 
@@ -93,10 +96,9 @@ PHP モジュールを Apache にロードする:
 
 ::
 
-    LoadModule php5_module "c:/php/php5apache2_4.dll"
-    AddHandler application/x-httpd-php .php
+    LoadModule php5_module "c:/php/php5apache2_4.dll" AddHandler application/x-httpd-php .php
 
-    # configure the path to php.ini
+    # php.iniへのパスを設定する
     PHPIniDir "C:/php"
 
     # change this directive
@@ -135,7 +137,7 @@ PHP のインストール
 ~~~~~~~~~~~~~~~~
 
 -  サーバーにIIS をインストールする (新しいロールを追加するとともに、 CGI/FastCGIを有効にするのを忘れないでください)
--  公式ドキュメントに従って  PHP をインストールする:
+-  以下で示す公式ドキュメントに従って  PHP をインストールする:
 
    -  `Microsoft IIS 5.1 と IIS  6.0 <http://php.net/manual/en/install.windows.iis6.php>`__
    -  `Microsoft IIS 7.0 以降 <http://php.net/manual/en/install.windows.iis7.php>`__
