@@ -100,7 +100,7 @@ updateExternalTaskLink
    -  **link_id** (integer, 必須)
    -  **title** (string, 必須)
    -  **url** (string, 必須)
-   -  **dependency** (string, **type** (string, 任意)
+   -  **dependency** (string, 必須)
 
 -  成功時の返り値: **true**
 -  失敗時の返り値: **false**
