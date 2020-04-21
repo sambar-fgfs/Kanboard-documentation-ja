@@ -151,7 +151,7 @@ getUserByName
 
     {
         "jsonrpc": "2.0",
-        d"id": 1769674782,
+        "id": 1769674782,
         "result": {
             "id": "1",
             "username": "biloute",
