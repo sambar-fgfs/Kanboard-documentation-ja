@@ -4,7 +4,7 @@ FAQ
 Kanboardをホスティングするのにお勧めのサービスはどこですか？
 ------------------------------------------------------
 
-Kanboardは、 `Digital Ocean <https://www.digitalocean.com/?refcode=4b541f47aae4>`__ や `Linode <https://www.linode.com/?r=4e381ac8a61116f40c60dc7438acc719610d8b11>`__ ,あるいは `Gandi <https://www.gandi.net/>`__　のような、優れたVPSホスティングサービスでうまく動かせます。
+Kanboardは、 `Digital Ocean <https://www.digitalocean.com/?refcode=4b541f47aae4>`__ や`Linode <https://www.linode.com/?r=4e381ac8a61116f40c60dc7438acc719610d8b11>`__ ,あるいは `Gandi <https://www.gandi.net/>`__　のような、優れたVPSホスティングサービスでうまく動かせます。
 
 KanboardはデフォルトでSQLiteを使用しているため、最良のパフォーマンスを得るには、disk I/Oが早いサービスを選んでください。共有NFSマウントポイントを使用しているホスティングサービスは避けてください。
 
@@ -33,8 +33,7 @@ PHP 7.0 以前を使用している場合で、 ``open_basedir`` の制限をし
 URLが間違っていて、Page not found が出る (&amp;)
 ----------------------------------------------
 
--  ``?controller=auth&action=login&redirect_query=`` の代わりに、
-   ``/?controller=auth&amp;action=login&amp;redirect_query=`` のURLが表示される
+-  ``?controller=auth&action=login&redirect_query=`` の代わりに、 ``/?controller=auth&amp;action=login&amp;redirect_query=`` のURLが表示される
   
 -  そしてKanboardは “Page not found” エラーを返す
 
@@ -64,20 +63,6 @@ Apache + PHP-FPM でAPIの認証が失敗する
     RewriteCond %{HTTP:Authorization} ^(.+)$
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 
-eAccelerator で共通の問題
-------------------------------
-
-Kanboardが `eAccelerator <http://eaccelerator.net>`__ と併用するとうまく動かない。この問題はApacheのクラッシュか空白のページを引き起こします:
-
-::
-
-    [Wed Mar 05 21:36:56 2014] [notice] child pid 22630 exit signal Segmentation fault (11)
-
-この問題を回避する最善の方法は、eAccelaratorを無効にするか、 ``eaccelerator.filter`` の設定パラメータでどのファイルをキャッシュしたいかを手動で定義してください。
-
-`eAccelarator プロジェクトは2012年以降活動しておらずアップデートもされていません。 <https://github.com/eaccelerator/eaccelerator/commits/master>`__
-我々は最終バージョンのPHPと、それにバンドルされる `OPcache <http://php.net/manual/en/intro.opcache.php>`__ に切り替えることを推奨します。
-
 PHPビルトインのwebサーバーでKanboardをテストするにはどうすれば良いですか?
 ------------------------------------------------------
 
@@ -93,7 +78,7 @@ localhost上にApacheのようなwebサーバーをインストールしたく�
 Kanboardをインストールorアップグレードした後に空白のページが表示される
 ---------------------------------------------------------
 
--  サーバーに要求するものが全て入っているか確認する
+-  サーバーに必要なものが全て入っているか確認する
 -  PHPとApacheのエラーログを確認する
 -  ファイルに正しくアクセス権が割り当てられているか確認する
 -  aggressive OPCode キャッシュを使用している場合、webサーバーかphp-fpmをリロードする
@@ -129,8 +114,7 @@ Microsoft IIS とInternet Explorerにおいてログインできない
 
 例えば、これらに該当する既知の問題があります:
 
--  ドメイン名にアンダースコア(_)を使用している:
-   ``kanboard_something.mycompany.tld``
+-  ドメイン名にアンダースコア(_)を使用している:   ``kanboard_something.mycompany.tld``
 -  Microsoft Windows Server と IISを使用している
 -  ブラウザにIEを使用している
 
@@ -151,7 +135,7 @@ Microsoft IIS とInternet Explorerにおいてログインできない
 
 .. code:: 
 
-    # Set size limit to 20MB
+    # サイズ上限を 20MB にする
     upload_max_filesize = 20M
     post_max_size = 20M
 

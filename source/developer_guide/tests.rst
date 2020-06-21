@@ -146,6 +146,6 @@ Travis-CI を使用した継続的インテグレーション
 -  PHP 7.3
 -  PHP 7.2
 
-各バージョンのPHPで、サポートされている3つのデータベースでテストされます: Sqlite,Mysql とPostgresql です。
+各バージョンのPHPで、サポートされている3つのデータベースでテストされます: Sqlite, Mysql とPostgresql です。
 
 Travis-CIの設定ファイルは Kanboard のルートディレクトリにある ``.travis.yml`` です。

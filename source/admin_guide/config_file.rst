@@ -1,7 +1,7 @@
 設定ファイル
 ==================
 
-``config.php`` をプロジェクトのルートディレクトリか、``data`` フォルダに追加することで、Kanboardのデフォルト設定をカスタマイズできます。. また、``config.default.php``から、``config.php``にリネームすることでも、希望する設定値にできます。.
+``config.php`` をプロジェクトのルートディレクトリか、``data`` フォルダに追加することで、Kanboardのデフォルト設定をカスタマイズできます。また、``config.default.php``から、``config.php``にリネームすることでも、希望する設定値にできます。.
 
 デバッグモードの有効化/無効化
 -------------------------
@@ -18,7 +18,6 @@
 -  デバッグモードのログはすべてSQLクエリで、ページの生成に時間が掛かります。
 -  ``system`` ドライバは   `php.ini <http://php.net/manual/en/errorfunc.configuration.php#ini.error-log>`__ 内で設定したビルトインのPHPロガーを使用します。
    デフォルトでは、ログメッセージはwebサーバーのログとして送られます。
-
 プラグイン
 -------
 
@@ -169,6 +168,9 @@ LDAP の設定
     // ActiveDirectoryでの例: '(&(objectClass=user)(sAMAccountName=%s))'
     // OpenLDAPでの例: 'uid=%s'
     define('LDAP_USER_FILTER', '');
+
+    // グループ内で 'username' or 'dn' でユーザーをフィルタするLDAP属性
+    define('LDAP_GROUP_USER_ATTRIBUTE', 'username');
 
     // LDAP 属性でのユーザー名
     // ActiveDirectoryでの例: 'samaccountname'

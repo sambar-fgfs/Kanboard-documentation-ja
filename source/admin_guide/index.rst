@@ -16,7 +16,6 @@
     suse_installation
     freebsd_installation
     windows_installation
-    heroku_installation
     config_file
     cli
     sqlite

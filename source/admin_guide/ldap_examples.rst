@@ -28,7 +28,7 @@ Microsoft Active Directory
     define('LDAP_USER_BASE_DN', 'CN=Users,DC=kanboard,DC=local');
     define('LDAP_USER_FILTER', '(&(objectClass=user)(sAMAccountName=%s))');
 
-    define('LDAP_USER_ATTRIBUTE_USERNAME', 'samaccountname');
+    define('LDAP_USER_ATTRIBUTE_USERNAME', 'sAMAccountName');
     define('LDAP_USER_ATTRIBUTE_FULLNAME', 'displayname');
     define('LDAP_USER_ATTRIBUTE_PHOTO', 'jpegPhoto');
     define('LDAP_USER_ATTRIBUTE_LANGUAGE', 'preferredLanguage');
@@ -62,7 +62,7 @@ User LDIF の例:
     userPassword: password
     memberOf: cn=Kanboard Managers,ou=Groups,dc=kanboard,dc=local
 
-Group LDIF の例:
+Group LDIF example:
 
 ::
 
@@ -122,7 +122,7 @@ User LDIF の例:
     homeDirectory: /home/manager
     mail: manager@kanboard.local
 
-Group LDIF の例:
+Group LDIF example:
 
 ::
 
@@ -183,7 +183,7 @@ User LDIF の例:
     mail: manager@kanboard.local
     userPassword: password
 
-Group LDIF の例:
+Group LDIF example:
 
 ::
 
