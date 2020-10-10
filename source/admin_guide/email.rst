@@ -53,6 +53,14 @@ SMTP の設定
 
     define('MAIL_SMTP_ENCRYPTION', 'ssl'); // "null", "ssl", "tls" が利用できます
 
+いくつかのサーバーはHELO(EHLO)コマンドを利用してホスト名に基づくemailの通信を拒否しています(RFC 5321を参照
+HELOコマンドで(完全限定ドメイン名である)ホスト名を提供する事を明示するには:
+
+.. code:: php
+
+    define('MAIL_SMTP_HELO_NAME', null); // null (デフォルト)か FQDN が使用できます
+
+
 Sendmail の設定
 ~~~~~~~~~~~~~~~~~~~~~~
 

@@ -18,6 +18,7 @@
 -  デバッグモードのログはすべてSQLクエリで、ページの生成に時間が掛かります。
 -  ``system`` ドライバは   `php.ini <http://php.net/manual/en/errorfunc.configuration.php#ini.error-log>`__ 内で設定したビルトインのPHPロガーを使用します。
    デフォルトでは、ログメッセージはwebサーバーのログとして送られます。
+
 プラグイン
 -------
 
@@ -83,6 +84,7 @@ Email の設定
     define('MAIL_SMTP_PORT', 25);
     define('MAIL_SMTP_USERNAME', '');
     define('MAIL_SMTP_PASSWORD', '');
+    define('MAIL_SMTP_HELO_NAME', null); // null (デフォルト)か FQDN が使用できます
     define('MAIL_SMTP_ENCRYPTION', 'ssl'); // "null", "ssl", "tls" が利用できます
 
     // "sendmail" での送信を選んだときに sendmail コマンドが使用する設定
@@ -169,7 +171,8 @@ LDAP の設定
     // OpenLDAPでの例: 'uid=%s'
     define('LDAP_USER_FILTER', '');
 
-    // グループ内で 'username' or 'dn' でユーザーをフィルタするLDAP属性
+    // グループ内でのユーザーのフィルターに使用するLDAP属性
+    // 'username' or 'dn'
     define('LDAP_GROUP_USER_ATTRIBUTE', 'username');
 
     // LDAP 属性でのユーザー名
@@ -197,6 +200,9 @@ LDAP の設定
 
     // 自動でLDAP ユーザーの作成を許容する
     define('LDAP_USER_CREATION', true);
+
+    // 新規ユーザーをマネージャーにする
+    define('LDAP_USER_DEFAULT_ROLE_MANAGER', false);
 
     // システム管理者のLDAP 識別名
     // Example: CN=Kanboard-Admins,CN=Users,DC=kanboard,DC=local
@@ -235,6 +241,9 @@ LDAP の設定
 
     // ユーザー名に使用するヘッダ名
     define('REVERSE_PROXY_USER_HEADER', 'REMOTE_USER');
+
+    // ユーザー名に使用するヘッダ名
+    define('REVERSE_PROXY_EMAIL_HEADER', 'REMOTE_EMAIL');
 
     // 管理者のユーザー名。デフォルトは空白
     define('REVERSE_PROXY_DEFAULT_ADMIN', '');
@@ -296,6 +305,12 @@ RememberMe 認証の設定
     // セッションの有効期間 (秒指定。 0 の場合、ブラウザを閉じるまで)
     // http://php.net/manual/ja/session.configuration.php#ini.session.cookie-lifetime も参照のこと
     define('SESSION_DURATION', 0);
+
+    // セッションハンドラ: db or php
+    //    db: セッション情報はデータベース内に保存される(デフォルト)
+    //    php: セッション情報はPHP内部のセッションハンドラに保存される
+    // 詳細は https://www.php.net/manual/en/session.customhandler.php を参照願います。
+    define('SESSION_HANDLER', 'db');
 
 HTTP クライアント
 -----------
