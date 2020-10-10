@@ -15418,7 +15418,7 @@ URLs will be used automatically.</seg>
          </tuv>
 
          <tuv xml:lang="ja">
-            <seg>``data`` ディレクトリがwebサーバーのユーザーが書き込み出来ることを確認してください。</seg>
+            <seg> ``data`` ディレクトリがwebサーバーのユーザーが書き込み出来ることを確認してください。</seg>
          </tuv>
       </tu>
 
@@ -22592,7 +22592,7 @@ on another system.</seg>
          </tuv>
 
          <tuv xml:lang="ja">
-            <seg>`ソースコード &lt;https://github.com/kanboard/kanboard/releases/latest&gt;`_ をダウンロードして、 ``kanboard`` ディレクトリを適切な場所にコピーしてください。
+            <seg> `ソースコード &lt;https://github.com/kanboard/kanboard/releases/latest&gt;`_ をダウンロードして、 ``kanboard`` ディレクトリを適切な場所にコピーしてください。
 3.
 3.</seg>
          </tuv>
