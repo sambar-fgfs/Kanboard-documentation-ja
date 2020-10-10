@@ -8,8 +8,8 @@
 
 1. PHPがインストールされたWebサーバーが必要です。
 2. `ソースコード <https://github.com/kanboard/kanboard/releases/latest>`_ をダウンロードして、 ``kanboard`` ディレクトリを適切な場所にコピーしてください。
-3.
-3. ``data`` ディレクトリがwebサーバーのユーザーが書き込み出来ることを確認してください。ブラウザで http://yourpersonalserver/kanboard を開いてください。
+3. ``data`` ディレクトリがwebサーバーのユーザーが書き込み出来ることを確認してください。
+4. ブラウザで http://yourpersonalserver/kanboard を開いてください。
 5. デフォルトのログイン名とパスワードは **admin/admin** です。
 6. ソフトウェアの使用を開始してください。
 7. パスワードの変更を忘れないようにしてください。
