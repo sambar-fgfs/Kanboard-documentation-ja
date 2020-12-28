@@ -4,6 +4,17 @@ Docker上でKanboardを実行する
 .. 警告:: `ChangeLog <https://github.com/kanboard/kanboard/blob/master/ChangeLog>`_ を読まずにアップデートしないでください。
              重大な変更点の確認を怠らないでください。
 
+Docker レジストリ
+-----------------
+
++----------------------------+-----------------------------------------+
+| レジストリ                   | 概要                                    |
++============================+=========================================+
+| Docker Hub                 | ``docker.io/kanboard/kanboard``         |
++----------------------------+-----------------------------------------+
+| GitHub Container Registry  | ``ghcr.io/kanboard/kanboard``           |
++----------------------------+-----------------------------------------+
+
 
 Docker タグ
 -----------
@@ -129,9 +140,4 @@ Kanboardのリポジトリをクローンして、以下のコマンドを実行
     make docker-image
 
 .. 注意::
-
-    - `Kanboard 公式のイメージ <https://hub.docker.com/r/kanboard/kanboard/>`__
-    - `Dockerの文書 <https://docs.docker.com/>`__
-    - Kanboard v1.1.0 以降では "stable" タグは使用されていません。
-    - Kanboard v1.2.5 以降では、"latest" タグはマスターブランチの代わりに最新安定版リリースを指します。
-    - EMailを送るには、SMTPを使用するか、Mailgun/Sendgrid/Postmarkプラグインを使用しなければなりません。
+ EMailを送るには、SMTPメソッドを使用するか、Mailgun/Sendgrid/Postmark等のプラグインを使用しなければなりません。
