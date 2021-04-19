@@ -89,6 +89,10 @@ Email の設定
 
     // "sendmail" での送信を選んだときに sendmail コマンドが使用する設定
     define('MAIL_SENDMAIL_COMMAND', '/usr/sbin/sendmail -bs');
+    
+    // 全ての通知のコピーの送信時に "Bcc" ヘッダーで使用するメールアドレス
+    define('MAIL_BCC', '');
+
 
 データベースの設定
 -----------------
