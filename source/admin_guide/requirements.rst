@@ -90,6 +90,10 @@ PHP のバージョン
 | PHP >= 7.2   |
 +--------------+
 
+.. 警告::
+
+    KanboardはまだPHP8と互換性がありません。
+
 .. 注意::
 
     - Kanboard 1.2.13 以降では、PHP 7.2 以降が必要になります。
@@ -147,7 +151,8 @@ PHP のバージョン
 ~~~~~~~~~~~~~~~
 
 -  最新版のPHPをインストールした現代的なLinux/Unix OSを使用する。
--  最良のパフォーマンスを得るために、OpCode キャッシュが有効化された最新のPHPを使用する。
+-  Best performances are obtained with the latest version of PHP with
+   OpCode caching activated.
 
 クライアント側
 -----------

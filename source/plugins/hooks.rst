@@ -38,7 +38,7 @@ Console <http://symfony.com/doc/current/components/console/introduction.html>`__
 
 タスクの字句解析器が新しいインスタンスを都度返すので、  ``extend()`` メソッドか、pimpleによって ``taskLexer`` コンテナを拡張しなければなりません。
 
-ここに例を示しますe:
+ここに例を示します:
 
 .. code:: php
 
@@ -133,16 +133,16 @@ Console <http://symfony.com/doc/current/components/console/introduction.html>`__
 
    -  ``$project_id`` (integer)
    -  ``$start`` カレンダーの開始日 (string, ISO-8601 書式)
-   -  ``$end`` - カレンダーの終了日 (string, ISO-8601 書式)
+   -  ``$end`` カレンダーの終了日 (string, ISO-8601 書式)
 
 ``controller:calendar:user:events``
 
--  Add more events to the user calendar
+- ユーザーのカレンダーに更にイベントを追加する場合
 -  引数:
 
    -  ``$user_id`` (integer)
    -  ``$start`` カレンダーの開始日 (string, ISO-8601 書式)
-   -  ``$end`` - カレンダーの終了日 (string, ISO-8601 書式)
+   -  ``$end`` カレンダーの終了日 (string, ISO-8601 書式)
 
 アセットのフック
 -----------
@@ -182,7 +182,7 @@ Console <http://symfony.com/doc/current/components/console/introduction.html>`__
 .. code:: php
 
     $this->hook->on('formatter:board:query', function (\PicoDb\Table &query) {
-        $query->eq('color_id', 'red');
+        $query->eq(TaskModel::TABLE.'color_id', 'red');
     });
 
 上述のコードはボード上のタスクを赤のみで表示します。
@@ -206,13 +206,15 @@ Console <http://symfony.com/doc/current/components/console/introduction.html>`__
 +----------------------------------------+---------------------------------------------------------------+
 | ``model:task:modification:prepare``    | タスクを変更する前にフォームの値を変更する                       |
 +----------------------------------------+---------------------------------------------------------------+
+| ``model:task:duplication:aftersave``   | 後でタスクを複製する                                       |
++----------------------------------------+---------------------------------------------------------------+
 | ``model:color:get-list``               | デフォルト色の値を変更する                                   |
 +----------------------------------------+---------------------------------------------------------------+
 | ``model:subtask:modification:prepare`` | サブタスクを変更する前にフォームの値を変更する                   |
 +----------------------------------------+---------------------------------------------------------------+
 | ``model:subtask:creation:prepare``     | サブタスクを作成する前にフォームの値を変更する                    |
 +----------------------------------------+---------------------------------------------------------------+
-| ``model:subtask:count:query``          | サブタスクをカウントする前にフォームの値を変更する                        |
+| ``model:subtask:count:query``          | サブタスクをカウントする                        |
 +----------------------------------------+---------------------------------------------------------------+
 
 フックのテンプレート

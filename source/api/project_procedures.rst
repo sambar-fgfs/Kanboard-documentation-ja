@@ -11,6 +11,8 @@ createProject
    -  **description** (string, 任意)
    -  **owner_id** (integer, 任意)
    -  **identifier** (alphanumeric string, 任意)
+   -  **start_date** ISO8601 形式 (string, 任意)
+   -  **end_date** ISO8601 形式 (string, 任意)
 
 -  成功時の返り値: **project_id**
 -  失敗時の返り値: **false**
@@ -304,6 +306,8 @@ updateProject
    -  **description** (string, 任意)
    -  **owner_id** (integer, 任意)
    -  **identifier** (string, 任意)
+   -  **start_date** ISO8601 形式 (string, 任意)
+   -  **end_date** ISO8601 形式 (string, 任意)
 
 -  成功時の返り値: **true**
 -  失敗時の返り値: **false**
