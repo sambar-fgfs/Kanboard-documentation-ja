@@ -135,15 +135,16 @@ Lighttpd での設定例
 ------------------------------
 
 1. "mod_rewrite" を有効にする
-::
+.. code::
+    
     server.modules += (
         "mod_rewrite",
         ...
         ...
     )
-2. Add url rewrites to the relevant sections of your lighttpd.conf (in this case, for host example.com). Also keep the assets directory and the favicon static:
-2. lighttpd.confの関連するセクションにurl rewritesを追記する(この例では、ホストは example.com)。 また、assetsディレクトリを保持し、faviconを固定する場合では:
-::
+1. lighttpd.confの関連するセクションにurl rewritesを追記する(この例では、ホストは example.com)。 また、assetsディレクトリを保持し、faviconを固定する場合では:
+.. code::
+    
     $HTTP["host"] == "example.com" {
       server.document-root = "/var/www/kanboard/"
       url.rewrite-once = (
@@ -153,8 +154,9 @@ Lighttpd での設定例
       )
     }
 
-3. Lighttpd config を再読み込みする: 
-::
+1. Lighttpd config を再読み込みする: 
+.. code::
+    
     /etc/init.d/lighttpd reload
     
 IIS での設定例

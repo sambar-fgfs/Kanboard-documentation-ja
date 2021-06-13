@@ -9,7 +9,6 @@ Kanboard は自由でオープンソースな、かんばんプロジェクト�
 - フォーラム: https://kanboard.discourse.group/
 - RSS フィード: https://github.com/kanboard/kanboard/releases.atom
 - Mastodon: https://mastodon.social/@kanboard
-- IRC: #kanboard on Freenode
 
 訳者注:誤訳の修正については https://github.com/sambar-fgfs/Kanboard-documentation-ja までプルリクエストをお願いします。
 
